@@ -4,6 +4,7 @@
   "title": "Train Tunnels",
   "author": "BaLoo",
   "description": "Adds tunnels for rails. They work like the underground belts.",
+  "homepage": "https://github.com/Loomie/factoriomods/",
   "factorio_version": "0.14",
   "dependencies": ["base >= 0.14.17"]
 }
