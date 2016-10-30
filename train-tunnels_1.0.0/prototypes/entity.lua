@@ -24,7 +24,7 @@ data:extend({
         percent = 100
       }
     },
-	collision_mask = { },
+    collision_mask = { },
     collision_box = {{-0.7, -0.8}, {0.7, 0.8}},
     selection_box = {{-0.7, -0.8}, {0.7, 0.8}},
     belt_horizontal = basic_belt_horizontal,
