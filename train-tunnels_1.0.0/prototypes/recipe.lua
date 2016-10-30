@@ -2,7 +2,7 @@ data:extend({
   {
     type = "recipe",
     name = "underground-rail",
-    enabled = "true",
+    enabled = "false",
     ingredients = 
     {
       {"iron-plate", 10},
