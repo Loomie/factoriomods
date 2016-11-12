@@ -1,0 +1,8 @@
+{
+  "name": "OilResourcesExtended",
+  "version": "0.1.0",
+  "title": "Oil & Resources Extended",
+  "author": "Team Stumpen",
+  "description": "Under Construction!\nAdds a process to turn coal into oil.\n***\n0.1.0: added a Coal-to-Oil process\n***\nTo Do: more oil sources & resource stuff",
+  "factorio_version":"0.14"
+}

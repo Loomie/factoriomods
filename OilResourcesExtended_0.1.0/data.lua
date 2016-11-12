@@ -1,0 +1,7 @@
+--require("prototypes.recipe-category")
+--require("prototypes.item")
+--require("prototypes.entity")
+require("prototypes.fluid")
+require("prototypes.technology")
+require("prototypes.chemfab-recipe")
+--require("prototypes.boiler-recipe")
