@@ -17,7 +17,7 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-c[coal-gasification]",
-    icon = "__ExtendedResourcesAndOil__/graphics/icons/coal-gasification.png",    
+    icon = "__oil-resources-extended__/graphics/icons/coal-gasification.png",    
   },
   {
     type = "recipe",
@@ -36,6 +36,6 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-d[carbon-hydrogenation]",
-    icon = "__ExtendedResourcesAndOil__/graphics/icons/carbon-hydrogenation.png",    
+    icon = "__oil-resources-extended__/graphics/icons/carbon-hydrogenation.png",    
   }  
 })

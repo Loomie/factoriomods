@@ -3,7 +3,7 @@
   {
     type = "technology",
     name = "coal-to-oil",
-    icon = "__ExtendedResourcesAndOil__/graphics/technology/coal-to-oil.png",
+    icon = "__oil-resources-extended__/graphics/technology/coal-to-oil.png",
     prerequisites = {"oil-processing", "fluid-handling"},
     effects =
     {
