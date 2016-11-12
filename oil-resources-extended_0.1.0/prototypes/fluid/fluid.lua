@@ -38,5 +38,18 @@ data:extend(
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
     order = "e[lubricant]-f[nitrogen-gas]"
-  }  
+  },
+  {
+    type = "fluid",
+    name = "coal-slurry",
+    default_temperature = 25,
+    heat_capacity = "1KJ",
+    base_color = {r=0.15, g=0.05, b=0},
+    flow_color = {r=0.35, g=0.2, b=0.2},
+    max_temperature = 100,
+    icon = "__oil-resources-extended__/graphics/icons/coal-slurry.png",
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "e[lubricant]-f[nitrogen-gas]"
+  }
 })

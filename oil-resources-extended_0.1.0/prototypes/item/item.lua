@@ -39,6 +39,6 @@ data:extend(
     subgroup = "raw-material",
     order = "b[coke-dust]",
     stack_size = 50
-  },
+  }
 
 })
