@@ -5,7 +5,7 @@ data:extend(
     name = "coal-dust",
     icon = "__oil-resources-extended__/graphics/icons/coal-dust.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "8MJ",
+    fuel_value = "2MJ",
     subgroup = "raw-material",
     order = "b[coal-dust]",
     stack_size = 50
@@ -35,7 +35,7 @@ data:extend(
     name = "coke-dust",
     icon = "__oil-resources-extended__/graphics/icons/coke-dust.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "14MJ",
+    fuel_value = "3MJ",
     subgroup = "raw-material",
     order = "b[coke-dust]",
     stack_size = 50
