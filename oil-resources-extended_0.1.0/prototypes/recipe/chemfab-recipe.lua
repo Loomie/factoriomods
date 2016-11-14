@@ -17,7 +17,7 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-c[coal-gasification]",
-    icon = "__oil-resources-extended__/graphics/icons/coal-gasification.png",    
+    icon = "__oil-resources-extended__/graphics/icons/coal-gasification.png",
   },
   {
     type = "recipe",
@@ -36,6 +36,24 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-d[carbon-hydrogenation]",
-    icon = "__oil-resources-extended__/graphics/icons/carbon-hydrogenation.png",    
+    icon = "__oil-resources-extended__/graphics/icons/carbon-hydrogenation.png",
+  },
+  {
+    type = "recipe",
+    name = "coal-wet-milling",
+    category = "chemistry",
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="coal-dust", amount=4},
+      {type="fluid", name="water", amount=20}
+    },
+    results=
+    {
+      {type="fluid", name="coal-slurry", amount=1}
+    },
+    subgroup = "fluid-recipes",
+    order = "c[fluid-chemistry]-c[coal-wet-milling]",
+    icon = "__oil-resources-extended__/graphics/icons/coal-wet-milling.png",
   }  
 })

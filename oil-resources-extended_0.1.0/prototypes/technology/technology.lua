@@ -23,6 +23,10 @@
         type = "unlock-recipe",
         recipe = "coke-grinding"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "coal-wet-milling"
+      }
     },
     unit =
     {
