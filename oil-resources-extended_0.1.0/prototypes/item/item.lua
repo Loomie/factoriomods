@@ -39,6 +39,20 @@ data:extend(
     subgroup = "raw-material",
     order = "b[coke-dust]",
     stack_size = 50
-  }
-
+  },
+  {
+    type = "item",
+    name = "powerline-concrete",
+    icon = "__base__/graphics/icons/concrete.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "terrain",
+    order = "b[concrete]-c[power]",
+    stack_size = 100,
+    place_as_tile =
+    {
+      result = "powerline-concrete",
+      condition_size = 1,
+      condition = { "water-tile" }
+    }
+  }  
 })
