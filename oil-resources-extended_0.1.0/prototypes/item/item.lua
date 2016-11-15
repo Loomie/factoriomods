@@ -54,5 +54,15 @@ data:extend(
       condition_size = 1,
       condition = { "water-tile" }
     }
-  }  
+  },
+  {
+    type = "item",
+    name = "impact-mill",
+    icon = "__oil-resources-extended__/graphics/icons/impact-mill.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "production-machine",
+    order = "a[assembling-machine-1]-b[impact-mill]",
+    place_result = "impact-mill",
+    stack_size = 50
+  }
 })

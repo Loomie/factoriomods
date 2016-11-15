@@ -9,6 +9,10 @@
     {
       {
         type = "unlock-recipe",
+        recipe = "impact-mill-building"
+      },
+      {
+        type = "unlock-recipe",
         recipe = "coal-grinding"
       },
       {

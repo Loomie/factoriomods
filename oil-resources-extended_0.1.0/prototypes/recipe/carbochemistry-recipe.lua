@@ -2,6 +2,19 @@ data:extend(
 {
   {
     type = "recipe",
+    name = "impact-mill-building",
+    enabled = false,
+    ingredients =
+    {
+      {"stone", 3},
+      {"iron-gear-wheel", 5},
+      {"iron-plate", 9}
+    },
+    result = "impact-mill",
+    requester_paste_multiplier = 4
+  },
+  {
+    type = "recipe",
     name = "coal-grinding",
     category = "grinding",
     enabled = false,
