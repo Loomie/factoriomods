@@ -29,7 +29,7 @@ data:extend(
   {
     type = "recipe",
     name = "coal-compression",
-    category = "pressing",
+    --category = "pressing",
     enabled = false,
     energy_required = 3,
     ingredients =
@@ -43,7 +43,7 @@ data:extend(
   {
     type = "recipe",
     name = "coking",
-    category = "pressing",
+    --category = "pressing",
     enabled = false,
     energy_required = 5,
     ingredients =
