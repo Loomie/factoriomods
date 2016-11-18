@@ -23,6 +23,10 @@ data:extend(
   {
     type = "noise-layer",
     name = "water-aquifer"
-  } 
+  },
+  {
+    type = "noise-layer",
+    name = "industrial-sand"
+  }   
 }
 )
