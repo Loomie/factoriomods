@@ -1,11 +1,4 @@
 data:extend({
-  --{
-  --  type = "recipe",
-  --  name = "oil-furnace",
-  --  ingredients = {{"stone", 5}},
-  --  result = "oil-furnace",
-  --  requester_paste_multiplier = 4
-  --},
   {
     type = "recipe",
     name = "powerline-concrete",
@@ -16,5 +9,25 @@ data:extend({
     },
     result= "powerline-concrete",
     result_count = 10
-  }  
+  },
+  {
+    type = "recipe",
+    name = "coke-oven",
+    energy_required = 3,
+    ingredients =
+    {
+      {"iron-ore", 1}
+    },
+    result= "coke-oven"
+  },
+  {
+    type = "recipe",
+    name = "separator",
+    energy_required = 3,
+    ingredients =
+    {
+      {"iron-ore", 1}
+    },
+    result= "separator"
+  }    
 })

@@ -11,6 +11,7 @@ require("prototypes.technology.technology")
 require("prototypes.recipe.chemfab-recipe")
 require("prototypes.recipe.carbochemistry-recipe")
 require("prototypes.recipe.fluid-burning-recipe")
+require("prototypes.recipe.separation-recipe")
 require("prototypes.recipe.recipe")
 -- Resource
 require("prototypes.resource.autoplace-controls")

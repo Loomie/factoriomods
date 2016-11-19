@@ -5,5 +5,11 @@ data:extend(
     name="ore-machine",
     group="production",
     order="g"    
-  }
+  },
+  {
+    type="item-subgroup",
+    name="ore-separation",
+    group="intermediate-products",
+    order="h"    
+  }  
 })

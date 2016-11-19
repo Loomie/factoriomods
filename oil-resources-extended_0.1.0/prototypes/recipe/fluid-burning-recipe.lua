@@ -2,21 +2,6 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "hot-water-1",
-    category = "fluid-burning",
-    energy_required = 1,
-    enabled = true,
-    ingredients =
-    {
-      {type="fluid", name="water", amount=6}
-    },
-    results=
-    {
-      {type="fluid", name="water", amount=6, temperature=100}
-    }    
-  },
-  {
-    type = "recipe",
     name = "hot-water-2",
     category = "fluid-burning",
     energy_required = 1,
