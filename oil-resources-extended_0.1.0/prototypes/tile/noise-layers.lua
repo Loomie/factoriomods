@@ -22,11 +22,19 @@ data:extend(
   },
   {
     type = "noise-layer",
-    name = "water-aquifer"
+    name = "water-well"
   },
   {
     type = "noise-layer",
     name = "industrial-sand"
+  },
+  {
+    type = "noise-layer",
+    name = "sulfur-rock"
+  },
+  {
+    type = "noise-layer",
+    name = "sulfur-well"
   }   
 }
 )

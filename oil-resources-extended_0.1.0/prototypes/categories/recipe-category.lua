@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "recipe-category",
-    name = "oil-burning"
+    name = "fluid-burning"
   },
   {
     type = "recipe-category",

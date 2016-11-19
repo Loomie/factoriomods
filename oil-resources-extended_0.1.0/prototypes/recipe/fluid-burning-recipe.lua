@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-1",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -18,7 +18,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-2",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -34,7 +34,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-3",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -50,7 +50,7 @@ data:extend(
    {
     type = "recipe",
     name = "hot-water-4",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -66,7 +66,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-5",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -82,7 +82,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-6",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -98,7 +98,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-7",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =
@@ -114,7 +114,7 @@ data:extend(
   {
     type = "recipe",
     name = "hot-water-8",
-    category = "fluid-boiler",
+    category = "fluid-burning",
     energy_required = 1,
     enabled = true,
     ingredients =

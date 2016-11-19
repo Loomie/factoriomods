@@ -1,0 +1,9 @@
+data:extend(
+{
+  {
+    type="item-subgroup",
+    name="ore-machine",
+    group="production",
+    order="g"    
+  }
+})

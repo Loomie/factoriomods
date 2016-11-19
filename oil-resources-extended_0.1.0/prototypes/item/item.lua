@@ -1,5 +1,6 @@
 data:extend(
 {
+-- Products  
   {
     type = "item",
     name = "coal-dust",
@@ -40,6 +41,7 @@ data:extend(
     order = "b[coke-dust]",
     stack_size = 50
   },
+-- Tiles  
   {
     type = "item",
     name = "powerline-concrete",
@@ -55,13 +57,14 @@ data:extend(
       condition = { "water-tile" }
     }
   },
+-- Machines 
   {
     type = "item",
     name = "impact-mill",
     icon = "__oil-resources-extended__/graphics/icons/impact-mill.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "production-machine",
-    order = "a[assembling-machine-1]-b[impact-mill]",
+    subgroup = "ore-machine",
+    order = "a[ore-machine]-a[impact-mill]",
     place_result = "impact-mill",
     stack_size = 50
   },
