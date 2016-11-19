@@ -43,15 +43,15 @@ data:extend(
   {
     type = "recipe",
     name = "coking",
-    --category = "pressing",
+    category = "pyrolysis",
     enabled = false,
-    energy_required = 5,
+    energy_required = 10,
     ingredients =
     {
-      {"briquette", 1}
+      {"briquette", 2}
     },
     result = "coke",
-    result_count = 1,
+    result_count = 2,
     requester_paste_multiplier = 4
   },
   {

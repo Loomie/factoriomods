@@ -56,6 +56,90 @@ data:extend(
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
     }
+  },
+
+  {
+    type = "furnace",
+    name = "coke-oven",
+    icon = "__oil-resources-extended__/graphics/icons/coke-oven.png",
+    flags = {"placeable-neutral", "placeable-player", "player-creation"},
+    minable = {mining_time = 1, result = "coke-oven"},
+    max_health = 200,
+    corpse = "medium-remnants",
+    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    working_sound =
+    {
+      sound = { filename = "__base__/sound/furnace.ogg" }
+    },
+    resistances =
+    {
+      {
+        type = "fire",
+        percent = 100
+      }
+    },
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
+    selection_box = {{-0.8, -1}, {0.8, 1}},
+    crafting_categories = {"pyrolysis"},
+    result_inventory_size = 1,
+    crafting_speed = 1,
+    energy_usage = "100kW",
+    source_inventory_size = 1,
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "secondary-input",
+      emissions = 0.005
+    },
+    animation =
+    {
+      filename = "__oil-resources-extended__/graphics/entity/coke-oven/coke-oven.png",
+      priority = "high",
+      width = 140,
+      height = 76,
+      frame_count = 1,
+      shift = {1.21875, -0.125}
+    },
+    working_visualisations =
+    {
+      {
+        north_position = {0.0, 0.0},
+        east_position = {0.0, 0.0},
+        south_position = {0.0, 0.0},
+        west_position = {0.0, 0.0},
+        animation =
+        {
+          filename = "__oil-resources-extended__/graphics/entity/coke-oven/coke-oven-fire.png",
+          priority = "high",
+          line_length = 8,
+          width = 49,
+          height = 81,
+          frame_count = 48,
+          axially_symmetrical = false,
+          direction_count = 1,
+          shift = {-0.07, -0.5},
+        },
+        light = {intensity = 1, size = 1}
+      },
+      {
+        north_position = {0.0, 0.0},
+        east_position = {0.0, 0.0},
+        south_position = {0.0, 0.0},
+        west_position = {0.0, 0.0},
+        effect = "flicker", -- changes alpha based on energy source light intensity
+        animation =
+        {
+          filename = "__oil-resources-extended__/graphics/entity/coke-oven/coke-oven-glow.png",
+          priority = "high",
+          width = 69,
+          height = 90,
+          frame_count = 1,
+          shift = {-0.33, -0.5},
+          blend_mode = "additive"
+        }
+      }
+    },
+    fast_replaceable_group = "furnace"
   }
 
 })

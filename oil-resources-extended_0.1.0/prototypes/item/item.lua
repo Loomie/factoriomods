@@ -64,5 +64,15 @@ data:extend(
     order = "a[assembling-machine-1]-b[impact-mill]",
     place_result = "impact-mill",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "coke-oven",
+    icon = "__oil-resources-extended__/graphics/icons/coke-oven.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "smelting-machine",
+    order = "b[coke-oven]",
+    place_result = "coke-oven",
+    stack_size = 50
   }
 })
