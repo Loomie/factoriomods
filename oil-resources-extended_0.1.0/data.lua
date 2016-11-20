@@ -2,7 +2,11 @@
 require("prototypes.categories.recipe-category")
 require("prototypes.categories.item-subgroups")
 -- Item, Entity, Fluid
-require("prototypes.item.item")
+require("prototypes.item.raw-resource")
+require("prototypes.item.raw-material")
+require("prototypes.item.ore-machine")
+require("prototypes.item.terrain")
+require("prototypes.item.intermediate-product")
 require("prototypes.tile.tiles")
 require("prototypes.entity.entity")
 require("prototypes.fluid.fluid")
