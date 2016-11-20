@@ -64,4 +64,66 @@ data:extend(
   resource("platinum-ore", {r=0.45, g=0.44, b=0.43}), -- #72706E
 --  resource("phosphor-rock", {r=0.8, g=0.8, b=0.8}),
   resource("raw-sand", {r=0.89, g=0.75, b=0.70}), -- #E4BFB2
+  -- Sulfur Well
+  {
+    type = "resource",
+    name = "sulfur-well",
+    icon = "__oil-resources-extended__/graphics/icons/sulfur-well.png",
+    flags = {"placeable-neutral"},
+    category = "basic-fluid",
+    order="a-b-b",
+    infinite = true,
+    minimum = 1500,
+    normal = 15000,
+    minable =
+    {
+      hardness = 1,
+      mining_time = 1,
+      results =
+      {
+        {
+          type = "fluid",
+          name = "sulfuric-water",
+          amount_min = 1,
+          amount_max = 1,
+          probability = 1
+        }
+      }
+    },
+    collision_box = {{ -1.4, -1.4}, {1.4, 1.4}},
+    selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
+    autoplace =
+    {
+      control = "sulfur-well",
+      sharpness = 0.99,
+      max_probability = 0.035,
+      richness_base = 6000,
+      richness_multiplier = 30000,
+      richness_multiplier_distance_bonus = 5,
+      coverage = 0.02, -- Cover on average 2% of surface area.
+      peaks =
+      {
+        {
+          noise_layer = "sulfur-well",
+          noise_octaves_difference = -1,
+          noise_persistence = 0.4,
+        }
+      }
+    },
+    stage_counts = {0},
+    stages =
+    {
+      sheet =
+      {
+        filename = "__oil-resources-extended__/graphics/entity/sulfur-well/sulfur-well.png",
+        priority = "extra-high",
+        width = 75,
+        height = 61,
+        frame_count = 4,
+        variation_count = 1
+      }
+    },
+    map_color = {r=0.85, g=0.85, b=0.1}, -- brightgold
+    map_grid = false
+  }  
 })

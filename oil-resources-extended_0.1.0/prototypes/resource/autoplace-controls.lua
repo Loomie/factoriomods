@@ -41,17 +41,18 @@ data:extend(
     name = "raw-sulfur",
     richness = true,
     order = "c-g"
---  },
---  { 
---    type = "autoplace-control",
---    name = "sulfur-well",
---    richness = true,
---    order = "c-h"
---  }, 
+  },
+  { 
+    type = "autoplace-control",
+    name = "sulfur-well",
+    richness = true,
+    order = "c-h"
+  }, 
 --  { 
 --    type = "autoplace-control",
 --    name = "water-well",
 --    richness = true,
 --    order = "c-i"
-  } 
+--  }
+
 })

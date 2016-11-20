@@ -31,10 +31,10 @@ data:extend(
   {
     type = "noise-layer",
     name = "raw-sulfur"
---  },
---  {
---    type = "noise-layer",
---    name = "sulfur-well"
+  },
+  {
+    type = "noise-layer",
+    name = "sulfur-well"
   }   
 }
 )
