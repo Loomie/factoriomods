@@ -1,22 +1,33 @@
 data:extend(
 {
--- Products  
-  {
-    type = "item",
-    name = "coal-dust",
-    icon = "__oil-resources-extended__/graphics/icons/coal-dust.png",
-    flags = {"goes-to-main-inventory"},
-    fuel_value = "2MJ",
-    subgroup = "raw-material",
-    order = "b[coal-dust]",
-    stack_size = 50
-  },
+-- Products 
+-- fuel
+--  {
+--    type = "item",
+--    name = "wood-char-coal",
+--    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
+--    flags = {"goes-to-main-inventory"},
+--    fuel_value = "10MJ",
+--    subgroup = "raw-material",
+--    order = "b[briquette]",
+--    stack_size = 50
+--  },
+--  {
+--    type = "item",
+--    name = "briquette-char-coal",
+--    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
+--    flags = {"goes-to-main-inventory"},
+--    fuel_value = "10MJ",
+--    subgroup = "raw-material",
+--    order = "b[briquette]",
+--    stack_size = 50
+--  },
   {
     type = "item",
     name = "briquette",
     icon = "__oil-resources-extended__/graphics/icons/briquette.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "12MJ",
+    fuel_value = "10MJ",
     subgroup = "raw-material",
     order = "b[briquette]",
     stack_size = 50
@@ -26,37 +37,28 @@ data:extend(
     name = "coke",
     icon = "__oil-resources-extended__/graphics/icons/coke.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "14MJ",
+    fuel_value = "15MJ",
     subgroup = "raw-material",
     order = "b[coke]",
     stack_size = 50
   },
+-- raw material 
+  {
+    type = "item",
+    name = "coal-dust",
+    icon = "__oil-resources-extended__/graphics/icons/coal-dust.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "b[coal-dust]",
+    stack_size = 50
+  },  
   {
     type = "item",
     name = "coke-dust",
     icon = "__oil-resources-extended__/graphics/icons/coke-dust.png",
     flags = {"goes-to-main-inventory"},
-    fuel_value = "3MJ",
     subgroup = "raw-material",
     order = "b[coke-dust]",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "raw-sand",
-    icon = "__oil-resources-extended__/graphics/icons/raw-sand.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
-    order = "c[raw-sand]",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "raw-sulfur",
-    icon = "__oil-resources-extended__/graphics/icons/raw-sulfur.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
-    order = "b[raw-sulfur]",
     stack_size = 50
   },
   {
@@ -89,33 +91,6 @@ data:extend(
   },
   {
     type = "item",
-    name = "nickel-ore",
-    icon = "__oil-resources-extended__/graphics/icons/nickel-ore.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
-    order = "g[nickel-ore]",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "platinum-ore",
-    icon = "__oil-resources-extended__/graphics/icons/platinum-ore.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-resource",
-    order = "h[platinum-ore]",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "platinum-stone",
-    icon = "__oil-resources-extended__/graphics/icons/platinum-stone.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
-    order = "i[platinum-stone]",
-    stack_size = 50
-  }, 
-  {
-    type = "item",
     name = "bitumen",
     icon = "__oil-resources-extended__/graphics/icons/bitumen.png",
     flags = {"goes-to-main-inventory"},
@@ -125,10 +100,74 @@ data:extend(
   },
   {
     type = "item",
+    name = "nickel-ingot",
+    icon = "__oil-resources-extended__/graphics/icons/nickel-ingot.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "g[nickel-ore]-b[nickel-ingot]",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
+    name = "platinum-ingot",
+    icon = "__oil-resources-extended__/graphics/icons/platinum-ingot.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "h[platinum-ore]-c[platinum-ingot]",
+    stack_size = 50
+  },
+-- raw resource  
+  {
+    type = "item",
+    name = "raw-sand",
+    icon = "__oil-resources-extended__/graphics/icons/raw-sand.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "c[raw-sand]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "raw-sulfur",
+    icon = "__oil-resources-extended__/graphics/icons/raw-sulfur.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "b[raw-sulfur]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "nickel-ore",
+    icon = "__oil-resources-extended__/graphics/icons/nickel-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "g[nickel-ore]-a[nickel-ore]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "platinum-ore",
+    icon = "__oil-resources-extended__/graphics/icons/platinum-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "h[platinum-ore]-b[platinum-ore]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "platinum-stone",
+    icon = "__oil-resources-extended__/graphics/icons/platinum-stone.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "h[platinum-ore]-a[platinum-stone]",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
     name = "oil-shale",
     icon = "__oil-resources-extended__/graphics/icons/oil-shale.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
+    subgroup = "raw-resource",
     order = "l[oil-shale]",
     stack_size = 50
   }, 
@@ -137,10 +176,29 @@ data:extend(
     name = "oil-sand",
     icon = "__oil-resources-extended__/graphics/icons/oil-sand.png",
     flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
+    subgroup = "raw-resource",
     order = "j[oil-sand]",
     stack_size = 50
-  },   
+  },
+-- intermediate product  
+  {
+    type = "item",
+    name = "basic-catalysator",
+    icon = "__oil-resources-extended__/graphics/icons/basic-catalysator.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "l[catalyst]-a[basic]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "advanced-catalysator",
+    icon = "__oil-resources-extended__/graphics/icons/advanced-catalysator.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "l[catalyst]-b[advanced]",
+    stack_size = 50
+  },  
 -- Tiles  
   {
     type = "item",

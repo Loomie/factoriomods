@@ -20,10 +20,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"coal", 1}
+      {"coal", 4}
     },
     result = "coal-dust",
-    result_count = 4,
+    result_count = 6,
     requester_paste_multiplier = 10
   },
   {
@@ -34,10 +34,10 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-      {"coal-dust", 16}
+      {"coal-dust", 6}
     },
     result = "briquette",
-    result_count = 3,
+    result_count = 4,
     requester_paste_multiplier = 4
   },
   {
@@ -48,10 +48,10 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-      {"briquette", 2}
+      {"briquette", 4}
     },
     result = "coke",
-    result_count = 2,
+    result_count = 3,
     requester_paste_multiplier = 4
   },
   {
@@ -61,7 +61,7 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"coke", 1}
+      {"coke", 3}
     },
     result = "coke-dust",
     result_count = 4,
