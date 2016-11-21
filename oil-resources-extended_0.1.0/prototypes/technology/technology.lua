@@ -21,7 +21,7 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "coking"
+        recipe = "coking-mk1"
       },
       {
         type = "unlock-recipe",

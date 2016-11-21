@@ -1,24 +1,24 @@
 data:extend({
   {
     type = "recipe",
-    name = "platinum-ingot",
-    category = "smelting"
+    name = "platinum-plate",
+    category = "smelting",
     energy_required = 5,
     ingredients =
     {
       {"platinum-ore", 1}
     },
-    result= "platinum-ingot"
+    result= "platinum-plate"
   },
   {
     type = "recipe",
-    name = "nickel-ingot",
-    category = "smelting"
+    name = "nickel-plate",
+    category = "smelting",
     energy_required = 5,
     ingredients =
     {
       {"nickel-ore", 1}
     },
-    result= "nickel-ingot"
+    result= "nickel-plate"
   }   
 })

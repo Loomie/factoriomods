@@ -14,8 +14,12 @@ data:extend(
   },
   {
     type = "recipe-category",
-    name = "pyrolysis"
+    name = "pyrolysis-mk1"
   },
+  {
+    type = "recipe-category",
+    name = "pyrolysis-mk2"
+  },  
   {
     type = "recipe-category",
     name = "separation"

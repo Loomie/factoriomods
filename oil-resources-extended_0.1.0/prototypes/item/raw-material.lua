@@ -2,26 +2,35 @@ data:extend(
 {
 -- Products 
 -- fuel
---  {
---    type = "item",
---    name = "wood-char-coal",
---    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
---    flags = {"goes-to-main-inventory"},
---    fuel_value = "10MJ",
---    subgroup = "raw-material",
---    order = "b[briquette]",
---    stack_size = 50
---  },
---  {
---    type = "item",
---    name = "briquette-char-coal",
---    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
---    flags = {"goes-to-main-inventory"},
---    fuel_value = "10MJ",
---    subgroup = "raw-material",
---    order = "b[briquette]",
---    stack_size = 50
---  },
+  {
+    type = "item",
+    name = "char-coal",
+    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
+    flags = {"goes-to-main-inventory"},
+    fuel_value = "10MJ",
+    subgroup = "raw-material",
+    order = "b[briquette]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "briquette-char-coal",
+    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
+    flags = {"goes-to-main-inventory"},
+    fuel_value = "15MJ",
+    subgroup = "raw-material",
+    order = "b[briquette]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "wood-char",
+    icon = "__oil-resources-extended__/graphics/icons/briquette.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "b[briquette]",
+    stack_size = 50
+  },
   {
     type = "item",
     name = "briquette",
@@ -51,7 +60,16 @@ data:extend(
     subgroup = "raw-material",
     order = "b[coal-dust]",
     stack_size = 50
-  },  
+  },
+  {
+    type = "item",
+    name = "char-dust",
+    icon = "__oil-resources-extended__/graphics/icons/char-dust.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "b[char-dust]",
+    stack_size = 50
+  },   
   {
     type = "item",
     name = "coke-dust",
@@ -100,8 +118,8 @@ data:extend(
   },
   {
     type = "item",
-    name = "nickel-ingot",
-    icon = "__oil-resources-extended__/graphics/icons/nickel-ingot.png",
+    name = "nickel-plate",
+    icon = "__oil-resources-extended__/graphics/icons/nickel-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "g[nickel-ore]-b[nickel-ingot]",
@@ -109,8 +127,8 @@ data:extend(
   }, 
   {
     type = "item",
-    name = "platinum-ingot",
-    icon = "__oil-resources-extended__/graphics/icons/platinum-ingot.png",
+    name = "platinum-plate",
+    icon = "__oil-resources-extended__/graphics/icons/platinum-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "h[platinum-ore]-c[platinum-ingot]",

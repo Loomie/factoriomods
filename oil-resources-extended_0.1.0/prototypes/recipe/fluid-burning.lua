@@ -2,7 +2,23 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "hot-water-2",
+    name = "burn-hydrogen",
+    category = "fluid-burning",
+    energy_required = 1,
+    enabled = true,
+    ingredients =
+    {
+      {type="fluid", name="water", amount=6},
+      {type="fluid", name="hydrogen-gas", amount=6}
+    },
+    results=
+    {
+      {type="fluid", name="water", amount=6, temperature=100}
+    }    
+  },  
+  {
+    type = "recipe",
+    name = "burn-coal-slurry",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,
@@ -18,7 +34,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "hot-water-3",
+    name = "burn-quality-coal-slurry",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,
@@ -34,7 +50,7 @@ data:extend(
   },
    {
     type = "recipe",
-    name = "hot-water-4",
+    name = "burn-pyro-oil",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,
@@ -50,7 +66,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "hot-water-5",
+    name = "burn-shale-oil",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,
@@ -66,7 +82,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "hot-water-6",
+    name = "burn-heavy-oil",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,
@@ -82,7 +98,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "hot-water-7",
+    name = "burn-light-oil",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,
@@ -98,7 +114,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "hot-water-8",
+    name = "burn-fuel-oil",
     category = "fluid-burning",
     energy_required = 1,
     enabled = true,

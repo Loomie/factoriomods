@@ -17,5 +17,41 @@ data:extend(
     subgroup = "intermediate-product",
     order = "l[catalyst]-b[advanced]",
     stack_size = 50
-  }
+  },
+  {
+    type = "item",
+    name = "synth-diamond",
+    icon = "__oil-resources-extended__/graphics/icons/synth-diamond.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "m[diamond]-a",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "diamond-dust",
+    icon = "__oil-resources-extended__/graphics/icons/synth-diamond.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "m[diamond]-b",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "drill-bit",
+    icon = "__oil-resources-extended__/graphics/icons/drill-bit.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "n[drill-bit]-a",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "diamond-drill-bit",
+    icon = "__oil-resources-extended__/graphics/icons/diamond-drill-bit.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "m[diamond]-b",
+    stack_size = 50
+  }   
 })

@@ -80,7 +80,7 @@ data:extend(
     },
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-0.8, -1}, {0.8, 1}},
-    crafting_categories = {"pyrolysis"},
+    crafting_categories = {"pyrolysis-mk1"},
     result_inventory_size = 1,
     crafting_speed = 1,
     energy_usage = "100kW",

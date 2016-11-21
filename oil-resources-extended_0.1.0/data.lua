@@ -1,24 +1,32 @@
 -- Category
 require("prototypes.categories.recipe-category")
 require("prototypes.categories.item-subgroups")
--- Item, Entity, Fluid
-require("prototypes.item.raw-resource")
-require("prototypes.item.raw-material")
-require("prototypes.item.ore-machine")
-require("prototypes.item.terrain")
+-- Item
 require("prototypes.item.intermediate-product")
+require("prototypes.item.mining-tool")
+require("prototypes.item.ore-machine")
+require("prototypes.item.raw-material")
+require("prototypes.item.raw-resource")
+require("prototypes.item.terrain")
+--tiles
 require("prototypes.tile.noise-layers")
 require("prototypes.tile.tiles")
+-- entity
 require("prototypes.entity.entity")
+--fluid
 require("prototypes.fluid.fluid")
--- Recipe, Tech
+-- Tech
 require("prototypes.technology.technology")
-require("prototypes.recipe.chemfab-recipe")
-require("prototypes.recipe.carbochemistry-recipe")
-require("prototypes.recipe.fluid-burning-recipe")
-require("prototypes.recipe.separation-recipe")
-require("prototypes.recipe.assembler-recipe")
-require("prototypes.recipe.recipe")
+-- Recipe
+require("prototypes.recipe.chemistry")
+require("prototypes.recipe.coal-compression")
+require("prototypes.recipe.crafting")
+require("prototypes.recipe.fluid-burning")
+require("prototypes.recipe.grinding")
+require("prototypes.recipe.pyrolysis-mk1")
+require("prototypes.recipe.pyrolysis-mk2")
+require("prototypes.recipe.separation")
+require("prototypes.recipe.smelting")
 -- Resource
 require("prototypes.resource.autoplace-controls")
 require("prototypes.resource.resources")
