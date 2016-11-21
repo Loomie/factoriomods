@@ -12,8 +12,7 @@ data:extend(
     },
     result = "coke",
     result_count = 3,
-    requester_paste_multiplier = 4,
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    requester_paste_multiplier = 4
   },
   {
     type = "recipe",
@@ -27,7 +26,6 @@ data:extend(
     },
     result = "char-coal",
     result_count = 3,
-    requester_paste_multiplier = 4,
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    requester_paste_multiplier = 4
   }
 })
