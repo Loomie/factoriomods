@@ -127,8 +127,16 @@ data:extend({
     result = "impact-mill",
     requester_paste_multiplier = 4
   },
-  
-  
-  
-  
+  {
+    type = "recipe",
+    name = "long-handed-filter-inserter",
+    enabled = true,
+    ingredients =
+    {
+      {"long-handed-inserter", 1},
+      {"electronic-circuit", 5}
+    },
+    result = "long-handed-filter-inserter",
+    requester_paste_multiplier = 4
+  }  
 })
