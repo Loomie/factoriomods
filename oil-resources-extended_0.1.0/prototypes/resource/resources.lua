@@ -21,7 +21,7 @@ end
 
 local function resource(name, map_color, hardness, coverage)
   if hardness == nil then hardness = 0.9 end
-  if coverage == nil then coverage = 0.02 end
+  if coverage == nil then coverage = 0.01 end
   return {
     type = "resource",
     name = name,
