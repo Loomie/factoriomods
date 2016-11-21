@@ -8,12 +8,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {type="item", name="coal", amount=7},
-      {type="fluid", name="water", amount=20}
+      {type="item", name="coal-dust", amount=10},
+      {type="item", name="basic-catalysator", amount=1},
+      {type="fluid", name="water", amount=30}
     },
     results=
     {
-      {type="fluid", name="hydrogen-gas", amount=6}
+      {type="fluid", name="hydrogen-gas", amount=12}
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-c[coal-gasification]",
@@ -27,12 +28,33 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {type="item", name="coal", amount=14},
-      {type="fluid", name="hydrogen-gas", amount=6}
+      {type="item", name="coal-dust", amount=22},
+      {type="item", name="basic-catalysator", amount=1},      
+      {type="fluid", name="hydrogen-gas", amount=12}
     },
     results=
     {
-      {type="fluid", name="crude-oil", amount=4}
+      {type="fluid", name="crude-oil", amount=5}
+    },
+    subgroup = "fluid-recipes",
+    order = "c[fluid-chemistry]-d[carbon-hydrogenation]",
+    icon = "__oil-resources-extended__/graphics/icons/carbon-hydrogenation.png",
+  },
+  {
+    type = "recipe",
+    name = "advanced-carbon-hydrogenation",
+    category = "chemistry",
+    energy_required = 20,
+    enabled = false,
+    ingredients =
+    {
+      {type="item", name="coal-dust", amount=21},
+      {type="item", name="advanced-catalysator", amount=1},      
+      {type="fluid", name="hydrogen-gas", amount=12}
+    },
+    results=
+    {
+      {type="fluid", name="crude-oil", amount=8}
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-d[carbon-hydrogenation]",
