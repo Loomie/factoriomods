@@ -125,5 +125,54 @@ data:extend(
     },
     map_color = {r=0.85, g=0.85, b=0.1}, -- brightgold
     map_grid = false
-  }  
+  },
+-- wood
+  {
+      type = "resource",
+      name = "forest-wood",
+      icon = "__oil-resources-extended__/graphics/icons/forest-wood.png",
+      flags = {"placeable-neutral"},
+      order="a-b-e",
+      category = "forest-wood", 
+      minable =
+      {
+        hardness = 0.9,
+        mining_particle = "coal-particle",
+        mining_time = 4,
+        result = "raw-wood"
+      },
+      collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
+      selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
+--      autoplace = {
+--        control = "oil-sand",
+--        sharpness = 1,
+--        richness_multiplier = 3000,
+--        richness_multiplier_distance_bonus = 20,
+--        richness_base = 500,
+--        coverage = 0.01,
+--        peaks = {
+--          {
+--            noise_layer = "oil-sand",
+--            noise_octaves_difference = -1.5,
+--            noise_persistence = 0.3,
+--          },
+--        },
+--        starting_area_size = 600 * 0.005,
+--        starting_area_amount = 600
+--      },
+      stage_counts = {1},
+      stages =
+      {
+        sheet =
+        {
+          filename = "__oil-resources-extended__/graphics/icons/forest-wood.png",
+          priority = "extra-high",
+          width = 32,
+          height = 32,
+          frame_count = 1,
+          variation_count = 1
+        }
+      },
+      map_color = {r=0.9, g=0.9, b=0.9}
+  }
 })

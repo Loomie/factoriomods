@@ -1,5 +1,6 @@
 -- Category
 require("prototypes.categories.recipe-category")
+require("prototypes.categories.resource-category")
 require("prototypes.categories.item-subgroups")
 -- Item
 require("prototypes.item.intermediate-product")
