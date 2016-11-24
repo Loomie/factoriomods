@@ -142,5 +142,14 @@ data:extend(
     subgroup = "raw-material",
     order = "b[raw-sulfur]",
     stack_size = 50
-  }
+  },
+  {
+    type = "item",
+    name = "palladium-plate",
+    icon = "__oil-resources-extended__/graphics/icons/palladium-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "h[platinum-ore]-d[palladium-plate]",
+    stack_size = 50
+  }, 
 })

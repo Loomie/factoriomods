@@ -13,7 +13,7 @@ data:extend(
     results =
     {
       {type="item", name="nickel-ore", amount=1},
-      {type="item", name="copper-ore", amount=1}
+      {type="item", name="purified-copper-ore", amount=1}
     },
     order = "a",
     icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
@@ -27,12 +27,13 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {type="item", name="nickel-ore", amount=3}
+      {type="item", name="nickel-ore", amount=3},
+      {type="fluid", name="sulfuric-acid", amount=1}       
     },
     results=
     {
-      {type="item", name="nickel-ore", amount=1},
-      {type="item", name="platinum-stone", amount=1}
+      {type="item", name="purified-nickel-ore", amount=1},
+      {type="item", name="platinum-stone", amount=1}     
     },
     order = "b",
     icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
@@ -46,17 +47,36 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {type="item", name="platinum-stone", amount=2},
+      {type="item", name="platinum-stone", amount=1},
       {type="fluid", name="sulfuric-acid", amount=1}
     },
     results=
     {
       {type="item", name="platinum-ore", amount=1},
     },
-    order = "c",
+    order = "d",
     icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
     subgroup = "ore-separation"
   },
+  {
+    type = "recipe",
+    name = "separate-palladium-ore",
+    category = "separation",
+    energy_required = 3,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="platinum-stone", amount=3},
+      {type="fluid", name="sulfuric-acid", amount=1}
+    },
+    results=
+    {
+      {type="item", name="palladium-ore", amount=2},
+    },
+    order = "d",
+    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    subgroup = "ore-separation"
+  },    
   {
     type = "recipe",
     name = "separate-alien-remains",
@@ -109,7 +129,7 @@ data:extend(
       {type="item", name="bitumen", amount=2},
       {type="item", name="raw-sand", amount=1}
     },
-    order = "d",
+    order = "e",
     icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
     subgroup = "ore-separation"
   },
@@ -129,7 +149,7 @@ data:extend(
       {type="item", name="calciumcarbonate", amount=2},
       {type="item", name="stone", amount=2}      
     },
-    order = "e",
+    order = "f",
     icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
     subgroup = "ore-separation"
   }  

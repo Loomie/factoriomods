@@ -53,5 +53,32 @@ data:extend(
     subgroup = "raw-resource",
     order = "j[oil-sand]",
     stack_size = 50
-  }
+  },
+  {
+    type = "item",
+    name = "purified-nickel-ore",
+    icon = "__oil-resources-extended__/graphics/icons/purified-nickel-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "g[nickel-ore]-b[pure]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "purified-copper-ore",
+    icon = "__oil-resources-extended__/graphics/icons/purified-copper-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "e[copper-ore]-a[pure]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "palladium-ore",
+    icon = "__oil-resources-extended__/graphics/icons/palladium-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "h[platinum-ore]-c[palladium-ore]",
+    stack_size = 50
+  },  
 })

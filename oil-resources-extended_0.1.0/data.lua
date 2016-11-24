@@ -26,6 +26,7 @@ require("prototypes.recipe.fluid-burning")
 require("prototypes.recipe.grinding")
 require("prototypes.recipe.pyrolysis-mk1")
 require("prototypes.recipe.pyrolysis-mk2")
+require("prototypes.recipe.refinery")
 require("prototypes.recipe.separation")
 require("prototypes.recipe.smelting")
 -- Resource

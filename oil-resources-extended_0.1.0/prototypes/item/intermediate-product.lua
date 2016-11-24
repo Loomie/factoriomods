@@ -20,6 +20,15 @@ data:extend(
   },
   {
     type = "item",
+    name = "complex-catalysator",
+    icon = "__oil-resources-extended__/graphics/icons/complex-catalysator.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "l[catalyst]-c[complex]",
+    stack_size = 50
+  },  
+  {
+    type = "item",
     name = "synth-diamond",
     icon = "__oil-resources-extended__/graphics/icons/synth-diamond.png",
     flags = {"goes-to-main-inventory"},

@@ -82,6 +82,19 @@ data:extend({
     },
     result= "advanced-catalysator"
   },
+  {
+    type = "recipe",
+    name = "complex-catalysator",
+    category = "advanced-crafting",
+    energy_required = 5,
+    ingredients =
+    {
+      {"palladium-plate", 1},
+      {"steel-plate", 1},
+      {"plastic-bar", 1},
+    },
+    result= "complex-catalysator"
+  },  
 -- Buildings
   {
     type = "recipe",

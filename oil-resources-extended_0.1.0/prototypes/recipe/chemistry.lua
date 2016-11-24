@@ -77,5 +77,23 @@ data:extend(
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-c[coal-wet-milling]",
     icon = "__oil-resources-extended__/graphics/icons/coal-wet-milling.png",
-  }  
+  },
+  {
+    type = "recipe",
+    name = "advanced-lubricant",
+    category = "chemistry",
+    enabled = true,
+    energy_required = 2,
+    ingredients =
+    {
+      {type="fluid", name="lubricant", amount=1},
+      {type="item", name="diamond-dust", amount=1},
+    },
+    results=
+    {
+      {type="fluid", name="advanced-lubricant", amount=3}
+    },
+    subgroup = "fluid-recipes",
+    icon = "__oil-resources-extended__/graphics/icons/fluid/advanced-lubricant.png",    
+  }   
 })
