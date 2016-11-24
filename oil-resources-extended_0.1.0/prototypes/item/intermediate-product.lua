@@ -62,5 +62,23 @@ data:extend(
     subgroup = "intermediate-product",
     order = "m[diamond]-b",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "raw-technical-ceramic",
+    icon = "__oil-resources-extended__/graphics/icons/raw-technical-ceramic.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "n[ceramic]-a",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "technical-ceramic",
+    icon = "__oil-resources-extended__/graphics/icons/technical-ceramic.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "intermediate-product",
+    order = "n[ceramic]-b",
+    stack_size = 50
   }   
 })

@@ -55,5 +55,16 @@ data:extend({
     },
     result= "nickel-plate",
     result_amount = 5
-  }   
+  },
+  {
+    type = "recipe",
+    name = "technical-ceramic",
+    category = "smelting",
+    energy_required = 12,
+    ingredients =
+    {
+      {"raw-technical-ceramic", 1}
+    },
+    result= "technical-ceramic"
+  },   
 })

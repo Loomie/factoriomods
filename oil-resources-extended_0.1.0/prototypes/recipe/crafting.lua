@@ -94,7 +94,19 @@ data:extend({
       {"plastic-bar", 1},
     },
     result= "complex-catalysator"
-  },  
+  },
+  {
+    type = "recipe",
+    name = "raw-technical-ceramic",
+    category = "advanced-crafting",
+    energy_required = 4,
+    ingredients =
+    {
+      {"silicate", 1},
+      {"coke-dust", 1}
+    },
+    result= "raw-technical-ceramic"
+  },   
 -- Buildings
   {
     type = "recipe",
