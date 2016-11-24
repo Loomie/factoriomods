@@ -58,12 +58,12 @@ end
 data:extend(
 {
   resource("raw-sulfur", {r=0.96, g=0.73, b=0.28}), -- #F5BA48
-  resource("nickel-ore", {r=0.61, g=0.68, b=0.7}), -- 9BAEB3
+  resource("nickel-ore", {r=0.53, g=0.74, b=0.5}), -- #86BD80
   resource("oil-sand", {r=0.42, g=0.25, b=0.22}), -- #6B4039
-  resource("oil-shale", {r=0.64, g=0.7, b=0.53}), -- #A3B287
-  resource("platinum-ore", {r=0.45, g=0.44, b=0.43}), -- #72706E
+  resource("oil-shale", {r=0.47, g=0.47, b=0.47}), -- #787878
+  resource("platinum-ore", {r=0.66, g=0.47, b=0.45}), -- #A87874
 --  resource("phosphor-rock", {r=0.8, g=0.8, b=0.8}),
-  resource("raw-sand", {r=0.89, g=0.75, b=0.70}), -- #E4BFB2
+  resource("raw-sand", {r=0.69, g=0.68, b=0.55}), -- #AFAD8B
   -- Sulfur Well
   {
     type = "resource",
