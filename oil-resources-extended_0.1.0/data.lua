@@ -29,6 +29,7 @@ require("prototypes.recipe.pyrolysis-mk2")
 require("prototypes.recipe.refinery")
 require("prototypes.recipe.separation")
 require("prototypes.recipe.smelting")
+require("prototypes.recipe.smelting-mk2")
 -- Resource
 require("prototypes.resource.autoplace-controls")
 require("prototypes.resource.resources")

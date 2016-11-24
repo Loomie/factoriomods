@@ -66,5 +66,17 @@ data:extend({
       {"raw-technical-ceramic", 1}
     },
     result= "technical-ceramic"
+  }, 
+  {
+    type = "recipe",
+    name = "steel-alloy",
+    category = "smelting",
+    energy_required = 21,
+    ingredients =
+    {
+      {"steel-plate", 1},
+      {"nickel-plate", 1}      
+    },
+    result= "steel-alloy-plate"
   },   
 })

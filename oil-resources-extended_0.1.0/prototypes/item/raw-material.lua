@@ -151,5 +151,41 @@ data:extend(
     subgroup = "raw-material",
     order = "h[platinum-ore]-d[palladium-plate]",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "steel-alloy-plate",
+    icon = "__oil-resources-extended__/graphics/icons/steel-alloy-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "i",
+    stack_size = 50
   }, 
+  {
+    type = "item",
+    name = "amorph-steel-plate",
+    icon = "__oil-resources-extended__/graphics/icons/amorph-steel-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "j",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
+    name = "raw-steel-alloy",
+    icon = "__oil-resources-extended__/graphics/icons/steel-alloy-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "i",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
+    name = "raw-amorph-steel",
+    icon = "__oil-resources-extended__/graphics/icons/amorph-steel-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "j",
+    stack_size = 50
+  },     
 })

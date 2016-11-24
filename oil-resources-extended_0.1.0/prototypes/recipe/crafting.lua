@@ -97,6 +97,38 @@ data:extend({
   },
   {
     type = "recipe",
+    name = "drill-bit",
+    category = "crafting-with-fluid",
+    energy_required = 3.5,
+    ingredients =
+    {
+      {type="fluid", name="lubricant", amount=1},
+      {type="item", name="steel-alloy-plate", amount=1},
+    },
+    results =
+    {
+      {type="item", name="drill-bit", amount=1}
+    }
+  },
+  {
+    type = "recipe",
+    name = "diamond-drill-bit",
+    category = "crafting-with-fluid",
+    energy_required = 3.5,
+    ingredients =
+    {
+      {type="fluid", name="lubricant", amount=1},
+      {type="item", name="steel-alloy-plate", amount=1},
+      {type="item", name="diamond-dust", amount=1},      
+    },
+    results =
+    {
+      {type="item", name="diamond-drill-bit", amount=1}
+    }
+  },
+ -- furnace packages 
+  {
+    type = "recipe",
     name = "raw-technical-ceramic",
     category = "advanced-crafting",
     energy_required = 4,
@@ -106,7 +138,31 @@ data:extend({
       {"coke-dust", 1}
     },
     result= "raw-technical-ceramic"
-  },   
+  },  
+  {
+    type = "recipe",
+    name = "raw-steel-alloy",
+    category = "advanced-crafting",
+    energy_required = 4,
+    ingredients =
+    {
+      {"steel-plate", 1},
+      {"nickel-plate", 1}
+    },
+    result= "raw-steel-alloy"
+  }, 
+  {
+    type = "recipe",
+    name = "raw-amorph-steel",
+    category = "advanced-crafting",
+    energy_required = 4,
+    ingredients =
+    {
+      {"silicate", 1},
+      {"coke-dust", 1}
+    },
+    result= "raw-amorph-steel"
+  },  
 -- Buildings
   {
     type = "recipe",
