@@ -29,35 +29,5 @@ data:extend(
     order = "c[separator]",
     place_result = "separator",
     stack_size = 50
-  },
-  {
-    type = "item",
-    name = "long-handed-filter-inserter",
-    icon = "__oil-resources-extended__/graphics/icons/long-handed-filter-inserter.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
-    order = "c[long-handed-inserter]-b[filter]",
-    place_result = "long-handed-filter-inserter",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "powerline-concrete-pole",
-    icon = "__oil-resources-extended__/graphics/icons/long-handed-filter-inserter.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "inserter",
-    order = "c[long-handed-inserter]-b[filter]",
-    place_result = "powerline-concrete-pole",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "laser-furnace",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "smelting-machine",
-    order = "a",
-    place_result = "laser-furnace",
-    stack_size = 50
-  }   
+  }
 })

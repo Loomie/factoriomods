@@ -1,7 +1,5 @@
 data:extend(
 {
--- Products 
--- fuel
   {
     type = "item",
     name = "char-coal",
@@ -51,7 +49,6 @@ data:extend(
     order = "b[coke]",
     stack_size = 50
   },
--- raw material 
   {
     type = "item",
     name = "coal-dust",

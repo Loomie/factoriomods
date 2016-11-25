@@ -4,10 +4,12 @@ require("prototypes.categories.resource-category")
 require("prototypes.categories.item-subgroups")
 -- Item
 require("prototypes.item.intermediate-product")
-require("prototypes.item.mining-tool")
+require("prototypes.item.inserter")
+require("prototypes.item.tool")
 require("prototypes.item.ore-machine")
 require("prototypes.item.raw-material")
 require("prototypes.item.raw-resource")
+require("prototypes.item.smelting-machine")
 require("prototypes.item.terrain")
 --tiles
 require("prototypes.tile.noise-layers")
