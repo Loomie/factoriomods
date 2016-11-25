@@ -15,7 +15,10 @@ require("prototypes.item.terrain")
 require("prototypes.tile.noise-layers")
 require("prototypes.tile.tiles")
 -- entity
-require("prototypes.entity.entity")
+require("prototypes.entity.assembling-machine")
+require("prototypes.entity.electric-pole")
+require("prototypes.entity.furnace")
+require("prototypes.entity.inserter")
 --fluid
 require("prototypes.fluid.fluid")
 -- Tech
