@@ -17,7 +17,7 @@ data:extend(
       {type="fluid", name="pyro-oil", amount=3}
     },
     requester_paste_multiplier = 4,
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",    
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
   },
   {
     type = "recipe",
@@ -36,7 +36,7 @@ data:extend(
       {type="fluid", name="pyro-oil", amount=3}
     },
     requester_paste_multiplier = 4,
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",    
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
   },
   {
     type = "recipe",
@@ -55,6 +55,6 @@ data:extend(
       {type="fluid", name="shale-oil", amount=3}
     },
     requester_paste_multiplier = 4,
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",    
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
   }  
 })
