@@ -293,5 +293,14 @@ data:extend(
     subgroup = "raw-material",
     order = "k-l",
     stack_size = 50
-  },   
+  },
+  {
+    type = "item",
+    name = "package-technical-ceramic",
+    icon = "__oil-resources-extended__/graphics/icons/raw-technical-ceramic.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-m",
+    stack_size = 50
+  }, 
 })

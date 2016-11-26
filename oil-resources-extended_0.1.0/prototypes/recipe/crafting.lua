@@ -129,7 +129,7 @@ data:extend({
  -- furnace packages 
   {
     type = "recipe",
-    name = "raw-technical-ceramic",
+    name = "package-technical-ceramic",
     category = "advanced-crafting",
     energy_required = 4,
     ingredients =
@@ -137,11 +137,11 @@ data:extend({
       {"silicate", 1},
       {"coke-dust", 1}
     },
-    result= "raw-technical-ceramic"
+    result= "package-technical-ceramic"
   },  
   {
     type = "recipe",
-    name = "raw-steel-alloy",
+    name = "package-steel-alloy",
     category = "advanced-crafting",
     energy_required = 4,
     ingredients =
@@ -149,19 +149,19 @@ data:extend({
       {"steel-plate", 1},
       {"nickel-plate", 1}
     },
-    result= "raw-steel-alloy"
+    result= "package-steel-alloy"
   }, 
   {
     type = "recipe",
-    name = "raw-amorph-steel",
+    name = "package-amorph-steel",
     category = "advanced-crafting",
     energy_required = 4,
     ingredients =
     {
-      {"silicate", 1},
-      {"coke-dust", 1}
+      {"steel-plate", 1},
+      {"palladium-plate", 1}
     },
-    result= "raw-amorph-steel"
+    result= "package-amorph-steel"
   },  
 -- Buildings
   {
