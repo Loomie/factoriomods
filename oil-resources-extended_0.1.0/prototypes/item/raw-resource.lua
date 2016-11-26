@@ -74,6 +74,15 @@ data:extend(
   },
   {
     type = "item",
+    name = "purified-iron-ore",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "e[copper-ore]-a[pure]",
+    stack_size = 50
+  },  
+  {
+    type = "item",
     name = "palladium-ore",
     icon = "__oil-resources-extended__/graphics/icons/palladium-ore.png",
     flags = {"goes-to-main-inventory"},
