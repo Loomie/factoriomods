@@ -78,6 +78,24 @@ data:extend(
   },
   {
     type = "item",
+    name = "copper-dust",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "b[copper-dust]",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "iron-dust",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "b[iron-dust]",
+    stack_size = 50
+  },  
+  {
+    type = "item",
     name = "silicate",
     icon = "__oil-resources-extended__/graphics/icons/silicate.png",
     flags = {"goes-to-main-inventory"},
@@ -167,22 +185,113 @@ data:extend(
     order = "j",
     stack_size = 50
   }, 
+-- packages of different raw materials for smelting, because furnaces only have 1 inventory slot  
   {
     type = "item",
-    name = "raw-steel-alloy",
-    icon = "__oil-resources-extended__/graphics/icons/steel-alloy-plate.png",
+    name = "package-steel-alloy",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
-    order = "i",
+    order = "k-a",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "package-amorph-steel",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-b",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "package-iron-ore",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-c",
     stack_size = 50
   }, 
   {
     type = "item",
-    name = "raw-amorph-steel",
-    icon = "__oil-resources-extended__/graphics/icons/amorph-steel-plate.png",
+    name = "package-steel-plate",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
-    order = "j",
+    order = "k-d",
     stack_size = 50
-  },     
+  },
+  {
+    type = "item",
+    name = "package-iron-pure",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-e",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "package-steel-pure",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-f",
+    stack_size = 50
+  },  
+  {
+    type = "item",
+    name = "package-copper-ore",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-g",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
+    name = "package-copper-pure",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-h",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "package-nickel-ore",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-i",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
+    name = "package-nickel-pure",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-j",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "package-platinum",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-k",
+    stack_size = 50
+  }, 
+  {
+    type = "item",
+    name = "package-palladium",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-l",
+    stack_size = 50
+  },   
 })
