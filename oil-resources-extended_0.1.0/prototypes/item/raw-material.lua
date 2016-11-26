@@ -212,7 +212,16 @@ data:extend(
     subgroup = "raw-material",
     order = "k-c",
     stack_size = 50
-  }, 
+  },
+  {
+    type = "item",
+    name = "package-iron-pure",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-c",
+    stack_size = 50
+  },   
   {
     type = "item",
     name = "package-steel-plate",
@@ -221,25 +230,7 @@ data:extend(
     subgroup = "raw-material",
     order = "k-d",
     stack_size = 50
-  },
-  {
-    type = "item",
-    name = "package-iron-pure",
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
-    order = "k-e",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "package-steel-pure",
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
-    order = "k-f",
-    stack_size = 50
-  },  
+  }, 
   {
     type = "item",
     name = "package-copper-ore",
@@ -302,5 +293,14 @@ data:extend(
     subgroup = "raw-material",
     order = "k-m",
     stack_size = 50
-  }, 
+  },
+  {
+    type = "item",
+    name = "package-phosphor",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-n",
+    stack_size = 50
+  },   
 })
