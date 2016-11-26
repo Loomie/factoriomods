@@ -16,7 +16,7 @@ data:extend(
       {type="item", name="purified-copper-ore", amount=1}
     },
     order = "a",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/seperate-nickel-ore.png",
     subgroup = "ore-separation"
   },
   {
@@ -36,7 +36,7 @@ data:extend(
       {type="item", name="platinum-stone", amount=1}     
     },
     order = "b",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-platinum-stone.png",
     subgroup = "ore-separation"
   },
   {
@@ -55,7 +55,7 @@ data:extend(
       {type="item", name="platinum-ore", amount=1},
     },
     order = "d",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-platinum-ore.png",
     subgroup = "ore-separation"
   },
   {
@@ -74,7 +74,7 @@ data:extend(
       {type="item", name="palladium-ore", amount=2},
     },
     order = "d",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-palladium-ore.png",
     subgroup = "ore-separation"
   },    
   {
@@ -92,7 +92,7 @@ data:extend(
       {type="item", name="oil-shale", amount=1}
     },
     order = "g",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-alien-remains.png",
     subgroup = "ore-separation"
   },
   {
@@ -111,7 +111,7 @@ data:extend(
       {type="fluid", name="water", amount=1, temperature = 100}
     },
     order = "f",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-sulfur.png",
     subgroup = "ore-separation"
   },
   {
@@ -130,7 +130,7 @@ data:extend(
       {type="item", name="raw-sand", amount=1}
     },
     order = "e",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-bitumen.png",
     subgroup = "ore-separation"
   },
   {
@@ -150,7 +150,7 @@ data:extend(
       {type="item", name="stone", amount=2}      
     },
     order = "f",
-    icon = "__oil-resources-extended__/graphics/icons/separation-dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/separate-sand.png",
     subgroup = "ore-separation"
   }  
 })
