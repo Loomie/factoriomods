@@ -89,5 +89,32 @@ data:extend(
     subgroup = "raw-resource",
     order = "h[platinum-ore]-c[palladium-ore]",
     stack_size = 50
-  },  
+  },
+  {
+    type = "item",
+    name = "apatite-stone",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "b",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "baked-apatite",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "b",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "phosphor",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "b",
+    stack_size = 50
+  },   
 })

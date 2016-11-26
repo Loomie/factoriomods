@@ -26,6 +26,10 @@ data:extend(
   },
   {
     type = "recipe-category",
-    name = "high-temperature-smelting"
-  }    
+    name = "smelting-blastfurnace"
+  },
+  {
+    type = "recipe-category",
+    name = "smelting-laser"
+  }     
 })

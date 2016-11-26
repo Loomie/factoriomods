@@ -152,5 +152,42 @@ data:extend(
     order = "f",
     icon = "__oil-resources-extended__/graphics/icons/separate-sand.png",
     subgroup = "ore-separation"
-  }  
+  },
+  {
+    type = "recipe",
+    name = "separate-iron",
+    category = "separation",
+    energy_required = 3,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="iron-ore", amount=1}
+    },
+    results=
+    {
+      {type="item", name="purified-iron-ore", amount=1},
+      {type="item", name="apatite-stone", amount=1},   
+    },
+    order = "f",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    subgroup = "ore-separation"
+  },
+  {
+    type = "recipe",
+    name = "separate-phosphor",
+    category = "separation",
+    energy_required = 3,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="baked-apatite", amount=3}
+    },
+    results=
+    {
+      {type="item", name="phosphor", amount=2},     
+    },
+    order = "f",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    subgroup = "ore-separation"
+  }   
 })

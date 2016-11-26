@@ -2,12 +2,11 @@ data:extend({
   {
     type = "recipe",
     name = "amorph-steel",
-    category = "high-temperature-smelting",
+    category = "smelting-laser",
     energy_required = 21,
     ingredients =
     {
-      {"steel-plate", 1},
-      {"palladium-plate", 1}      
+      {"package-amorph-steel", 1},     
     },
     result= "amorph-steel-plate"
   },  

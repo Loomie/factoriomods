@@ -110,7 +110,7 @@ data:extend(
       module_info_icon_shift = {0, 0.8}
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    crafting_categories = {"smelting", "high-temperature-smelting"},
+    crafting_categories = {"smelting", "smelting-laser"},
     result_inventory_size = 1,
     crafting_speed = 3,
     energy_usage = "270kW",
