@@ -75,7 +75,7 @@ data:extend(
   {
     type = "item",
     name = "purified-iron-ore",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "e[copper-ore]-a[pure]",

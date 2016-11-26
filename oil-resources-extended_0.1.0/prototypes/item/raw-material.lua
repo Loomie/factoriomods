@@ -79,7 +79,7 @@ data:extend(
   {
     type = "item",
     name = "copper-dust",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "b[copper-dust]",
@@ -88,7 +88,7 @@ data:extend(
   {
     type = "item",
     name = "iron-dust",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "b[iron-dust]",
@@ -189,7 +189,7 @@ data:extend(
   {
     type = "item",
     name = "package-steel-alloy",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-a",
@@ -198,7 +198,7 @@ data:extend(
   {
     type = "item",
     name = "package-amorph-steel",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-b",
@@ -207,7 +207,7 @@ data:extend(
   {
     type = "item",
     name = "package-iron-ore",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-c",
@@ -216,7 +216,7 @@ data:extend(
   {
     type = "item",
     name = "package-steel-plate",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-d",
@@ -225,7 +225,7 @@ data:extend(
   {
     type = "item",
     name = "package-iron-pure",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-e",
@@ -234,7 +234,7 @@ data:extend(
   {
     type = "item",
     name = "package-steel-pure",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-f",
@@ -243,7 +243,7 @@ data:extend(
   {
     type = "item",
     name = "package-copper-ore",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-g",
@@ -252,7 +252,7 @@ data:extend(
   {
     type = "item",
     name = "package-copper-pure",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-h",
@@ -261,7 +261,7 @@ data:extend(
   {
     type = "item",
     name = "package-nickel-ore",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-i",
@@ -270,7 +270,7 @@ data:extend(
   {
     type = "item",
     name = "package-nickel-pure",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-j",
@@ -279,7 +279,7 @@ data:extend(
   {
     type = "item",
     name = "package-platinum",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-k",
@@ -288,7 +288,7 @@ data:extend(
   {
     type = "item",
     name = "package-palladium",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "k-l",
