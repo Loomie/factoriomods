@@ -17,17 +17,20 @@ data:extend(
         percent = 70
       }
     },
-    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
+--    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
+--    selection_box = {{-0.8, -1}, {0.8, 1}},
+    collision_box = {{-1.0, -1.0}, {1.0, 1.0}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     animation =
     {
-      filename = "__oil-resources-extended__/graphics/entity/impact-mill/impact-mill.png",
+      filename = "__oil-resources-extended__/graphics/entity/impact-mill/impact-mill-anim.png",
       priority="high",
-      width = 81,
-      height = 70,
-      frame_count = 1,
-      line_length = 1,
-      shift = {0.25, -0.1}
+      width = 65,
+      height = 68,
+      frame_count = 15,
+      line_length = 15,
+      shift = {0.0, 0.0},
+      animation_speed = 1
     },
     crafting_categories = {"grinding"},
     crafting_speed = 0.5,
@@ -35,10 +38,10 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.05 / 1.5
+      emissions = 0.05 / 1.5    
     },
     energy_usage = "90kW",
-    ingredient_count = 2,
+    ingredient_count = 1,
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -56,7 +59,29 @@ data:extend(
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       apparent_volume = 1.5,
-    }
+    },
+    working_visualisations =
+    {
+      {
+        north_position = {0.0, 0.0},
+        east_position = {0.0, 0.0},
+        south_position = {0.0, 0.0},
+        west_position = {0.0, 0.0},
+        animation =
+        {
+          filename = "__oil-resources-extended__/graphics/entity/impact-mill/impact-mill-work.png",
+          priority = "extra-high",
+          line_length = 6,
+          width = 65,
+          height = 68,
+          frame_count = 6,
+          axially_symmetrical = false,
+          direction_count = 1,
+          shift = {0.0, 0.0},
+          animation_speed = 0.5
+        }
+      }
+    }    
   },
 -- Seperator  
   {

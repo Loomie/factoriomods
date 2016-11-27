@@ -198,7 +198,7 @@ data:extend({
   {
     type = "recipe",
     name = "impact-mill-building",
-    enabled = false,
+    enabled = true,
     ingredients =
     {
       {"stone", 3},

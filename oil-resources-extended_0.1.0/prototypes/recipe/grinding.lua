@@ -5,12 +5,13 @@ data:extend(
     name = "coal-grinding",
     category = "grinding",
     enabled = false,
+    energy_required = 1,
     ingredients =
     {
-      {"coal", 4}
+      {"coal", 2}
     },
     result = "coal-dust",
-    result_count = 6,
+    result_count = 3,
     requester_paste_multiplier = 10
   },
   {
