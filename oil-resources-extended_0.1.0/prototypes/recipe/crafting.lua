@@ -219,5 +219,15 @@ data:extend({
     },
     result = "long-handed-filter-inserter",
     requester_paste_multiplier = 4
-  }  
+  },
+  {
+    type = "recipe",
+    name = "electric-mining-drill-mk2",
+    energy_required = 3,
+    ingredients =
+    {
+      {"iron-ore", 1}
+    },
+    result= "electric-mining-drill-mk2"
+  },  
 })

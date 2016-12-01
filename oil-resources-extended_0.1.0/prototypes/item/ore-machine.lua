@@ -29,5 +29,25 @@ data:extend(
     order = "c[separator]",
     place_result = "separator",
     stack_size = 50
-  }
+  },
+  {
+    type = "item",
+    name = "electric-mining-drill-mk2",
+    icon = "__oil-resources-extended__/graphics/icons/electric-mining-drill-mk2.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "extraction-machine",
+    order = "a[items]-c[electric-mining-drill]-mk2",
+    place_result = "electric-mining-drill-mk2",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "pyrolysis-plant",
+    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "smelting-machine",
+    order = "b[coke-oven]-b[pyro-plant]",
+    place_result = "pyrolysis-plant",
+    stack_size = 50
+  }    
 })

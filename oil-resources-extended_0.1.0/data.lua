@@ -19,6 +19,7 @@ require("prototypes.entity.assembling-machine")
 require("prototypes.entity.electric-pole")
 require("prototypes.entity.furnace")
 require("prototypes.entity.inserter")
+require("prototypes.entity.mining-drill")
 --fluid
 require("prototypes.fluid.fluid")
 -- Tech
