@@ -4,7 +4,7 @@ data:extend(
   {
     type = "furnace",
     name = "coke-oven",
-    icon = "__oil-resources-extended__/graphics/icons/coke-oven.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/coke-oven.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "coke-oven"},
     max_health = 200,
@@ -88,7 +88,7 @@ data:extend(
   {
     type = "furnace",
     name = "pyrolysis-plant",
-    icon = "__oil-resources-extended__/graphics/icons/pyrolysis-plant.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/pyrolysis-plant.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "pyrolysis-plant"},
     max_health = 200,
@@ -266,7 +266,7 @@ data:extend(
     },
     fast_replaceable_group = "furnace"
   },
--- laser furnace
+-- blast furnace
   {
     type = "furnace",
     name = "blast-furnace",

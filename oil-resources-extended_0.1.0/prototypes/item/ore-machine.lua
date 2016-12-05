@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "impact-mill",
-    icon = "__oil-resources-extended__/graphics/icons/impact-mill.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/impact-mill.png",
     flags = {"goes-to-quickbar"},
     subgroup = "ore-machine",
     order = "a[ore-machine]-a[impact-mill]",
@@ -13,7 +13,7 @@ data:extend(
   {
     type = "item",
     name = "coke-oven",
-    icon = "__oil-resources-extended__/graphics/icons/coke-oven.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/coke-oven.png",
     flags = {"goes-to-quickbar"},
     subgroup = "ore-machine",
     order = "b[coke-oven]",
@@ -23,7 +23,7 @@ data:extend(
   {
     type = "item",
     name = "separator",
-    icon = "__oil-resources-extended__/graphics/icons/separator.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/separator.png",
     flags = {"goes-to-quickbar"},
     subgroup = "ore-machine",
     order = "c[separator]",
@@ -33,7 +33,7 @@ data:extend(
   {
     type = "item",
     name = "electric-mining-drill-mk2",
-    icon = "__oil-resources-extended__/graphics/icons/electric-mining-drill-mk2.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/electric-mining-drill-mk2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "extraction-machine",
     order = "a[items]-c[electric-mining-drill]-mk2",

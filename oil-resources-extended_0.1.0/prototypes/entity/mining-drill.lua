@@ -3,7 +3,7 @@ data:extend(
   {
     type = "mining-drill",
     name = "electric-mining-drill-mk2",
-    icon = "__oil-resources-extended__/graphics/icons/electric-mining-drill-mk2.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/electric-mining-drill-mk2.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "electric-mining-drill-mk2"},
     max_health = 300,

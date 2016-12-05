@@ -4,7 +4,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "impact-mill",
-    icon = "__oil-resources-extended__/graphics/icons/impact-mill.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/impact-mill.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "impact-mill"},
     max_health = 200,
@@ -87,7 +87,7 @@ data:extend(
   {
     type = "assembling-machine",
     name = "separator",
-    icon = "__oil-resources-extended__/graphics/icons/separator.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/separator.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "separator"},
     max_health = 250,

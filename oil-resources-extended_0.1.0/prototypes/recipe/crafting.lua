@@ -127,42 +127,42 @@ data:extend({
     }
   },
  -- furnace packages 
-  {
-    type = "recipe",
-    name = "package-technical-ceramic",
-    category = "advanced-crafting",
-    energy_required = 4,
-    ingredients =
-    {
-      {"silicate", 1},
-      {"coke-dust", 1}
-    },
-    result= "package-technical-ceramic"
-  },  
-  {
-    type = "recipe",
-    name = "package-steel-alloy",
-    category = "advanced-crafting",
-    energy_required = 4,
-    ingredients =
-    {
-      {"steel-plate", 1},
-      {"nickel-plate", 1}
-    },
-    result= "package-steel-alloy"
-  }, 
-  {
-    type = "recipe",
-    name = "package-amorph-steel",
-    category = "advanced-crafting",
-    energy_required = 4,
-    ingredients =
-    {
-      {"steel-plate", 1},
-      {"palladium-plate", 1}
-    },
-    result= "package-amorph-steel"
-  },  
+--  {
+--    type = "recipe",
+--    name = "package-technical-ceramic",
+--    category = "advanced-crafting",
+--    energy_required = 4,
+--    ingredients =
+--    {
+--      {"silicate", 1},
+--      {"coke-dust", 1}
+--    },
+--    result= "package-technical-ceramic"
+--  },  
+--  {
+--    type = "recipe",
+--    name = "package-steel-alloy",
+--    category = "advanced-crafting",
+--    energy_required = 4,
+--    ingredients =
+--    {
+--      {"steel-plate", 1},
+--      {"nickel-plate", 1}
+--    },
+--    result= "package-steel-alloy"
+--  }, 
+--  {
+--    type = "recipe",
+--    name = "package-amorph-steel",
+--    category = "advanced-crafting",
+--    energy_required = 4,
+--    ingredients =
+--    {
+--      {"steel-plate", 1},
+--      {"palladium-plate", 1}
+--    },
+--    result= "package-amorph-steel"
+--  },  
 -- Buildings
   {
     type = "recipe",

@@ -6,7 +6,7 @@ data:extend({
     energy_required = 21,
     ingredients =
     {
-      {"package-amorph-steel", 1},     
+      {"steel-plate", 1},     
     },
     result= "amorph-steel-plate"
   },  

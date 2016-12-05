@@ -3,7 +3,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "hard-steel-axe",
-    icon = "__oil-resources-extended__/graphics/icons/hard-steel-axe.png",
+    icon = "__oil-resources-extended__/graphics/icons/tool/hard-steel-axe.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -27,7 +27,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "hand-drill-mk1",
-    icon = "__oil-resources-extended__/graphics/icons/hand-drill-mk1.png",
+    icon = "__oil-resources-extended__/graphics/icons/tool/hand-drill-mk1.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -51,7 +51,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "hand-drill-mk2",
-    icon = "__oil-resources-extended__/graphics/icons/hand-drill-mk2.png",
+    icon = "__oil-resources-extended__/graphics/icons/tool/hand-drill-mk2.png",
     flags = {"goes-to-main-inventory"},
     action =
     {
@@ -75,7 +75,7 @@ data:extend(
   {
     type = "mining-tool",
     name = "hand-drill-mk3",
-    icon = "__oil-resources-extended__/graphics/icons/hand-drill-mk3.png",
+    icon = "__oil-resources-extended__/graphics/icons/tool/hand-drill-mk3.png",
     flags = {"goes-to-main-inventory"},
     action =
     {

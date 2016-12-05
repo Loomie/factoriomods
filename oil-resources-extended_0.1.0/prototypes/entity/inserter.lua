@@ -4,7 +4,7 @@ data:extend(
   {
     type = "inserter",
     name = "long-handed-filter-inserter",
-    icon = "__oil-resources-extended__/graphics/icons/long-handed-filter-inserter.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/long-handed-filter-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "long-handed-filter-inserter"},
     max_health = 40,

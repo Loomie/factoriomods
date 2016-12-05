@@ -4,7 +4,7 @@ data:extend(
   {
     type = "electric-pole",
     name = "powerline-concrete-pole",
-    icon = "__oil-resources-extended__/graphics/icons/long-handed-filter-inserter.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/long-handed-filter-inserter.png",
 	flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-repairable"},
 	selectable_in_game = false,
     max_health = 1,

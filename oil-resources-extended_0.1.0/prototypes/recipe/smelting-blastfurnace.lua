@@ -6,7 +6,7 @@ data:extend({
     energy_required = 5,
     ingredients =
     {
-      {"package-iron-ore", 5},     
+      {"iron-ore", 5},     
     },
     results =
     {

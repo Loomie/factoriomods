@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "powerline-concrete",
-    icon = "__oil-resources-extended__/graphics/icons/powerline-concrete.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/powerline-concrete.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "terrain",
     order = "b[concrete]-c[power]",
@@ -18,7 +18,7 @@ data:extend(
   {
     type = "item",
     name = "powerline-concrete-pole",
-    icon = "__oil-resources-extended__/graphics/icons/powerline-concrete.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/powerline-concrete.png",
     flags = {"goes-to-quickbar"},
     subgroup = "terrain",
     order = "b[concrete]-c[power]",

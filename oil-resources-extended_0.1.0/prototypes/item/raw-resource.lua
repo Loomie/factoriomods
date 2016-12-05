@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "raw-sand",
-    icon = "__oil-resources-extended__/graphics/icons/raw-sand.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/raw-sand.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "c[raw-sand]",
@@ -12,7 +12,7 @@ data:extend(
   {
     type = "item",
     name = "nickel-ore",
-    icon = "__oil-resources-extended__/graphics/icons/nickel-ore.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/nickel-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "g[nickel-ore]-a[nickel-ore]",
@@ -21,7 +21,7 @@ data:extend(
   {
     type = "item",
     name = "platinum-ore",
-    icon = "__oil-resources-extended__/graphics/icons/platinum-ore.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/platinum-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "h[platinum-ore]-b[platinum-ore]",
@@ -30,7 +30,7 @@ data:extend(
   {
     type = "item",
     name = "platinum-stone",
-    icon = "__oil-resources-extended__/graphics/icons/platinum-stone.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/platinum-stone.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "h[platinum-ore]-a[platinum-stone]",
@@ -39,7 +39,7 @@ data:extend(
   {
     type = "item",
     name = "oil-shale",
-    icon = "__oil-resources-extended__/graphics/icons/oil-shale.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/oil-shale.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "l[oil-shale]",
@@ -48,7 +48,7 @@ data:extend(
   {
     type = "item",
     name = "oil-sand",
-    icon = "__oil-resources-extended__/graphics/icons/oil-sand.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/oil-sand.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "j[oil-sand]",
@@ -57,7 +57,7 @@ data:extend(
   {
     type = "item",
     name = "purified-nickel-ore",
-    icon = "__oil-resources-extended__/graphics/icons/purified-nickel-ore.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/purified-nickel-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "g[nickel-ore]-b[pure]",
@@ -66,7 +66,7 @@ data:extend(
   {
     type = "item",
     name = "purified-copper-ore",
-    icon = "__oil-resources-extended__/graphics/icons/purified-copper-ore.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/purified-copper-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "e[copper-ore]-a[pure]",
@@ -84,7 +84,7 @@ data:extend(
   {
     type = "item",
     name = "palladium-ore",
-    icon = "__oil-resources-extended__/graphics/icons/palladium-ore.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/palladium-ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "h[platinum-ore]-c[palladium-ore]",

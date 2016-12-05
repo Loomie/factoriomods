@@ -18,7 +18,7 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-c[coal-gasification]",
-    icon = "__oil-resources-extended__/graphics/icons/coal-gasification.png",
+    icon = "__oil-resources-extended__/graphics/icons/recipe/coal-gasification.png",
   },
   {
     type = "recipe",
@@ -38,7 +38,7 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-d[carbon-hydrogenation]",
-    icon = "__oil-resources-extended__/graphics/icons/carbon-hydrogenation.png",
+    icon = "__oil-resources-extended__/graphics/icons/recipe/carbon-hydrogenation.png",
   },
   {
     type = "recipe",
@@ -58,7 +58,7 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-d[carbon-hydrogenation]",
-    icon = "__oil-resources-extended__/graphics/icons/carbon-hydrogenation.png",
+    icon = "__oil-resources-extended__/graphics/icons/recipe/carbon-hydrogenation.png",
   },
   {
     type = "recipe",
@@ -76,7 +76,7 @@ data:extend(
     },
     subgroup = "fluid-recipes",
     order = "c[fluid-chemistry]-c[coal-wet-milling]",
-    icon = "__oil-resources-extended__/graphics/icons/coal-wet-milling.png",
+    icon = "__oil-resources-extended__/graphics/icons/recipe/coal-wet-milling.png",
   },
   {
     type = "recipe",
