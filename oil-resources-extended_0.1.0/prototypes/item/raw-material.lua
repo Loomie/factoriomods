@@ -151,15 +151,6 @@ data:extend(
   },
   {
     type = "item",
-    name = "raw-sulfur",
-    icon = "__oil-resources-extended__/graphics/icons/raw-material/raw-sulfur.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "raw-material",
-    order = "b[raw-sulfur]",
-    stack_size = 50
-  },
-  {
-    type = "item",
     name = "palladium-plate",
     icon = "__oil-resources-extended__/graphics/icons/raw-material/palladium-plate.png",
     flags = {"goes-to-main-inventory"},

@@ -25,7 +25,7 @@ local function resource(name, map_color, hardness, coverage)
   return {
     type = "resource",
     name = name,
-    icon = "__oil-resources-extended__/graphics/icons/" .. name .. ".png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/" .. name .. ".png",
     flags = {"placeable-neutral"},
     order="a-b-a",
     minable =
@@ -68,7 +68,7 @@ data:extend(
   {
     type = "resource",
     name = "sulfur-well",
-    icon = "__oil-resources-extended__/graphics/icons/sulfur-well.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/sulfur-well.png",
     flags = {"placeable-neutral"},
     category = "basic-fluid",
     order="a-b-b",
@@ -130,7 +130,7 @@ data:extend(
   {
       type = "resource",
       name = "forest-wood",
-      icon = "__oil-resources-extended__/graphics/icons/forest-wood.png",
+      icon = "__oil-resources-extended__/graphics/icons/raw-resource/forest-wood.png",
       flags = {"placeable-neutral"},
       order="a-b-e",
       category = "forest-wood", 
@@ -165,7 +165,7 @@ data:extend(
       {
         sheet =
         {
-          filename = "__oil-resources-extended__/graphics/icons/forest-wood.png",
+          filename = "__oil-resources-extended__/graphics/entity/resources/forest-wood.png",
           priority = "extra-high",
           width = 32,
           height = 32,
