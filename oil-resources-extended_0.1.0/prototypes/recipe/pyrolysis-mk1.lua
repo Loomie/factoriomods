@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "coking-mk1",
     category = "pyrolysis-mk1",
-    enabled = false,
+    --enabled = false,
     energy_required = 10,
     ingredients =
     {
@@ -18,7 +18,7 @@ data:extend(
     type = "recipe",
     name = "char-coal-mk1",
     category = "pyrolysis-mk1",
-    enabled = false,
+    --enabled = false,
     energy_required = 10,
     ingredients =
     {

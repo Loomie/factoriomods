@@ -23,7 +23,7 @@ require("prototypes.entity.mining-drill")
 --fluid
 require("prototypes.fluid.fluid")
 -- Tech
-require("prototypes.technology.technology")
+--require("prototypes.technology.technology")
 -- Recipe
 require("prototypes.recipe.chemistry")
 require("prototypes.recipe.coal-compression")

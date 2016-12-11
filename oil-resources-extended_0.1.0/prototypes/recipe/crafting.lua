@@ -3,7 +3,7 @@ data:extend({
   {
     type = "recipe",
     name = "hard-steel-axe",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {"steel-plate", 5},
@@ -16,7 +16,7 @@ data:extend({
   {
     type = "recipe",
     name = "hand-drill-mk1",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {"steel-plate", 10},
@@ -30,7 +30,7 @@ data:extend({
   {
     type = "recipe",
     name = "hand-drill-mk2",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {"steel-plate", 10},
@@ -44,7 +44,7 @@ data:extend({
   {
     type = "recipe",
     name = "hand-drill-mk3",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {"steel-plate", 10},

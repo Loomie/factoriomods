@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "coal-grinding",
     category = "grinding",
-    enabled = false,
+    --enabled = false,
     energy_required = 1,
     ingredients =
     {
@@ -18,7 +18,7 @@ data:extend(
     type = "recipe",
     name = "coke-grinding",
     category = "grinding",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {"coke", 3}
@@ -31,7 +31,7 @@ data:extend(
     type = "recipe",
     name = "char-grinding",
     category = "grinding",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {"wood-char", 3}
@@ -44,7 +44,7 @@ data:extend(
     type = "recipe",
     name = "diamond-grinding",
     category = "grinding",
-    enabled = false,
+    --enabled = false,
     energy_required=10,
     ingredients =
     {

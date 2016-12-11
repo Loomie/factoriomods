@@ -5,7 +5,7 @@ data:extend(
     name = "coal-gasification",
     category = "chemistry",
     energy_required = 10,
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {type="item", name="coal-dust", amount=10},
@@ -25,7 +25,7 @@ data:extend(
     name = "carbon-hydrogenation",
     category = "chemistry",
     energy_required = 20,
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {type="item", name="coal-dust", amount=22},
@@ -45,7 +45,7 @@ data:extend(
     name = "advanced-carbon-hydrogenation",
     category = "chemistry",
     energy_required = 20,
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {type="item", name="coal-dust", amount=21},
@@ -64,7 +64,7 @@ data:extend(
     type = "recipe",
     name = "coal-wet-milling",
     category = "chemistry",
-    enabled = false,
+    --enabled = false,
     ingredients =
     {
       {type="item", name="coal-dust", amount=4},

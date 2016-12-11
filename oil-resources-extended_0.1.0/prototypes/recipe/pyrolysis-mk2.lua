@@ -5,7 +5,7 @@ data:extend(
     name = "coking-mk2",
     category = "pyrolysis-mk2",
     subgroup="intermediate-product",
-    enabled = false,
+    --enabled = false,
     energy_required = 10,
     ingredients =
     {
@@ -24,7 +24,7 @@ data:extend(
     name = "char-coal-mk2",
     category = "pyrolysis-mk2",
     subgroup="intermediate-product",
-    enabled = false,
+    --enabled = false,
     energy_required = 10,
     ingredients =
     {
@@ -43,7 +43,7 @@ data:extend(
     name = "shale-oil-mk2",
     category = "pyrolysis-mk2",
     subgroup="intermediate-product",
-    enabled = false,
+    --enabled = false,
     energy_required = 10,
     ingredients =
     {

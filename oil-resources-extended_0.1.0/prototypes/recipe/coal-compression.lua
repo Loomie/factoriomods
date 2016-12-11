@@ -3,7 +3,7 @@ data:extend(
   {
     type = "recipe",
     name = "coal-compression",
-    enabled = false,
+    --enabled = false,
     energy_required = 3,
     ingredients =
     {
@@ -16,7 +16,7 @@ data:extend(
   {
     type = "recipe",
     name = "synth-diamond",
-    enabled = false,
+    --enabled = false,
     energy_required = 20,
     ingredients =
     {
@@ -29,7 +29,7 @@ data:extend(
   {
     type = "recipe",
     name = "char-compression",
-    enabled = false,
+    --enabled = false,
     energy_required = 3,
     ingredients =
     {
