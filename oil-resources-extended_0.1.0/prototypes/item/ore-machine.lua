@@ -49,5 +49,25 @@ data:extend(
     order = "b[coke-oven]-b[pyro-plant]",
     place_result = "pyrolysis-plant",
     stack_size = 50
+  },
+  {
+    type = "item",
+    name = "mixing-plant",
+    icon = "__oil-resources-extended__/graphics/icons/building/mixing-plant.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "ore-machine",
+    order = "d[mixing-plant]",
+    place_result = "mixing-plant",
+    stack_size = 50
+  },
+  {
+    type = "item",
+    name = "multi-fuel-boiler",
+    icon = "__oil-resources-extended__/graphics/icons/building/multi-fuel-boiler.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "ore-machine",
+    order = "e[boiler]",
+    place_result = "multi-fuel-boiler",
+    stack_size = 50
   }    
 })

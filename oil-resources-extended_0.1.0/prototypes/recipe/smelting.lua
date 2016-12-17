@@ -14,7 +14,7 @@ data:extend({
     type = "recipe",
     name = "nickel-plate",
     category = "smelting",
-    energy_required = 8,
+    energy_required = 7.5,
     ingredients =
     {
       {"nickel-ore", 1}
@@ -39,7 +39,7 @@ data:extend({
     energy_required = 6,
     ingredients =
     {
-      {"purified-copper-ore", 3}
+      {"copper-nugget", 3}
     },
     result= "copper-plate",
     result_amount = 5    
@@ -51,11 +51,23 @@ data:extend({
     energy_required = 6,
     ingredients =
     {
-      {"purified-nickel-ore", 3}
+      {"nickel-nugget", 3}
     },
     result= "nickel-plate",
     result_amount = 5
   },
+  {
+    type = "recipe",
+    name = "smelt-pure-iron",
+    category = "smelting",
+    energy_required = 6,
+    ingredients =
+    {
+      {"iron-nugget", 3}
+    },
+    result= "iron-plate",
+    result_amount = 5
+  },  
 --  {
 --    type = "recipe",
 --    name = "technical-ceramic",
@@ -66,5 +78,29 @@ data:extend({
 --      {"package-technical-ceramic", 1}
 --    },
 --    result= "technical-ceramic"
---  }   
+--  },
+  {
+    type = "recipe",
+    name = "smelt-apatite",
+    category = "smelting",
+    energy_required = 6,
+    ingredients =
+    {
+      {"package-apatite", 1}
+    },
+    result= "baked-apatite",
+    result_amount = 1
+  },
+  {
+    type = "recipe",
+    name = "smelt-chromit",
+    category = "smelting",
+    energy_required = 7.5,
+    ingredients =
+    {
+      {"chromit-ore", 1}
+    },
+    result= "chrome-plate",
+    result_amount = 1
+  },  
 })

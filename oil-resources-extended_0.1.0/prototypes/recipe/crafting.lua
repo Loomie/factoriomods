@@ -125,44 +125,7 @@ data:extend({
     {
       {type="item", name="diamond-drill-bit", amount=1}
     }
-  },
- -- furnace packages 
---  {
---    type = "recipe",
---    name = "package-technical-ceramic",
---    category = "advanced-crafting",
---    energy_required = 4,
---    ingredients =
---    {
---      {"silicate", 1},
---      {"coke-dust", 1}
---    },
---    result= "package-technical-ceramic"
---  },  
---  {
---    type = "recipe",
---    name = "package-steel-alloy",
---    category = "advanced-crafting",
---    energy_required = 4,
---    ingredients =
---    {
---      {"steel-plate", 1},
---      {"nickel-plate", 1}
---    },
---    result= "package-steel-alloy"
---  }, 
---  {
---    type = "recipe",
---    name = "package-amorph-steel",
---    category = "advanced-crafting",
---    energy_required = 4,
---    ingredients =
---    {
---      {"steel-plate", 1},
---      {"palladium-plate", 1}
---    },
---    result= "package-amorph-steel"
---  },  
+  },  
 -- Buildings
   {
     type = "recipe",
@@ -201,9 +164,10 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"stone", 3},
-      {"iron-gear-wheel", 5},
-      {"iron-plate", 9}
+      {"raw-wood", 4},
+      {"electronic-circuit", 2},
+      {"iron-gear-wheel", 6},
+      {"iron-plate", 9}   
     },
     result = "impact-mill",
     requester_paste_multiplier = 4
@@ -229,5 +193,33 @@ data:extend({
       {"iron-ore", 1}
     },
     result= "electric-mining-drill-mk2"
+  },
+  {
+    type = "recipe",
+    name = "mixing-plant",
+    enabled = true,
+    ingredients =
+    {
+      {"iron-stick", 6},
+      {"electronic-circuit", 2},
+      {"iron-gear-wheel", 4},
+      {"iron-plate", 9}   
+    },
+    result = "mixing-plant",
+    requester_paste_multiplier = 1
+  },
+  {
+    type = "recipe",
+    name = "multi-fuel-boiler",
+    enabled = true,
+    ingredients =
+    {
+      {"steel-plate", 6},
+      {"electronic-circuit", 5},
+      {"iron-gear-wheel", 8},
+      {"pipe", 5}   
+    },
+    result = "multi-fuel-boiler",
+    requester_paste_multiplier = 1
   },  
 })

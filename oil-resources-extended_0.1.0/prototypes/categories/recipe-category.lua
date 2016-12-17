@@ -31,5 +31,9 @@ data:extend(
   {
     type = "recipe-category",
     name = "smelting-laser"
-  }     
+  },
+  {
+    type = "recipe-category",
+    name = "mixing"
+  }    
 })

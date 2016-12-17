@@ -65,8 +65,8 @@ data:extend(
   },
   {
     type = "item",
-    name = "purified-nickel-ore",
-    icon = "__oil-resources-extended__/graphics/icons/raw-resource/purified-nickel-ore.png",
+    name = "nickel-nugget",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/nickel-nugget.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "g[nickel-ore]-b[pure]",
@@ -74,8 +74,8 @@ data:extend(
   },
   {
     type = "item",
-    name = "purified-copper-ore",
-    icon = "__oil-resources-extended__/graphics/icons/raw-resource/purified-copper-ore.png",
+    name = "copper-nugget",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/copper-nugget.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "e[copper-ore]-a[pure]",
@@ -83,8 +83,8 @@ data:extend(
   },
   {
     type = "item",
-    name = "purified-iron-ore",
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    name = "iron-nugget",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/iron-nugget.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "e[copper-ore]-a[pure]",
@@ -101,8 +101,8 @@ data:extend(
   },
   {
     type = "item",
-    name = "apatite-stone",
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    name = "apatite",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/apatite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "b",
@@ -111,7 +111,7 @@ data:extend(
   {
     type = "item",
     name = "baked-apatite",
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/baked-apatite.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "b",
@@ -120,10 +120,19 @@ data:extend(
   {
     type = "item",
     name = "phosphor",
-    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/phosphor.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
     order = "b",
     stack_size = 50
-  },   
+  },
+  {
+    type = "item",
+    name = "chromit-ore",
+    icon = "__oil-resources-extended__/graphics/icons/raw-resource/chromit-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-resource",
+    order = "b",
+    stack_size = 50
+  }  
 })

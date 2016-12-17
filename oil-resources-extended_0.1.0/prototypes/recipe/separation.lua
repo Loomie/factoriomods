@@ -13,7 +13,7 @@ data:extend(
     results =
     {
       {type="item", name="nickel-ore", amount=1},
-      {type="item", name="purified-copper-ore", amount=1}
+      {type="item", name="copper-nugget", amount=1}
     },
     order = "a",
     icon = "__oil-resources-extended__/graphics/icons/recipe/seperate-nickel-ore.png",
@@ -32,7 +32,7 @@ data:extend(
     },
     results=
     {
-      {type="item", name="purified-nickel-ore", amount=1},
+      {type="item", name="nickel-nugget", amount=1},
       {type="item", name="platinum-stone", amount=1}     
     },
     order = "b",
@@ -155,7 +155,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "separate-iron",
+    name = "separate-apatite",
     category = "separation",
     energy_required = 3,
     enabled = true,
@@ -165,13 +165,32 @@ data:extend(
     },
     results=
     {
-      {type="item", name="purified-iron-ore", amount=1},
-      {type="item", name="apatite-stone", amount=1},   
+      {type="item", name="iron-nugget", amount=1},
+      {type="item", name="apatite", amount=1},   
     },
     order = "f",
     icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     subgroup = "ore-separation"
   },
+  {
+    type = "recipe",
+    name = "separate-chrome",
+    category = "separation",
+    energy_required = 3,
+    enabled = true,
+    ingredients =
+    {
+      {type="item", name="iron-ore", amount=1}
+    },
+    results=
+    {
+      {type="item", name="iron-nugget", amount=1},
+      {type="item", name="chromit-ore", amount=1},   
+    },
+    order = "f",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
+    subgroup = "ore-separation"
+  },  
   {
     type = "recipe",
     name = "separate-phosphor",

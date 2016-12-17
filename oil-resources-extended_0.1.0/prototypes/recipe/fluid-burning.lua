@@ -24,12 +24,12 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {type="fluid", name="water", amount=6},
+      {type="fluid", name="water", amount=18},
       {type="fluid", name="coal-slurry", amount=6}
     },
     results=
     {
-      {type="fluid", name="water", amount=6, temperature=100}
+      {type="fluid", name="water", amount=18, temperature=100}
     }    
   },
   {

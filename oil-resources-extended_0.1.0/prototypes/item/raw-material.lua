@@ -176,16 +176,25 @@ data:extend(
     order = "j",
     stack_size = 50
   }, 
--- packages of different raw materials for smelting, because furnaces only have 1 inventory slot leave cut out for now 
---  {
---    type = "item",
---    name = "package-steel-alloy",
---    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
---    flags = {"goes-to-main-inventory"},
---    subgroup = "raw-material",
---    order = "k-a",
---    stack_size = 50
---  },
+  {
+    type = "item",
+    name = "chrome-plate",
+    icon = "__oil-resources-extended__/graphics/icons/raw-material/chrome-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "j",
+    stack_size = 50
+  }, 
+-- packages of different raw materials for smelting, because furnaces only have 1 inventory slot
+  {
+    type = "item",
+    name = "package-apatite",
+    icon = "__oil-resources-extended__/graphics/icons/product/package-apatite.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "raw-material",
+    order = "k-a",
+    stack_size = 50
+  },
 --  {
 --    type = "item",
 --    name = "package-amorph-steel",
