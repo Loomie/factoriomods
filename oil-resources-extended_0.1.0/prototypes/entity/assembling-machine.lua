@@ -33,14 +33,14 @@ data:extend(
       animation_speed = 1
     },
     crafting_categories = {"grinding"},
-    crafting_speed = 0.5,
+    crafting_speed = 1,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
       emissions = 0.05 / 1.5    
     },
-    energy_usage = "90kW",
+    energy_usage = "60kW",
     ingredient_count = 1,
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
     close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
