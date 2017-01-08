@@ -34,7 +34,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "smelt-pure-copper",
+    name = "smelt-copper-nugget",
     category = "smelting",
     energy_required = 6,
     ingredients =
@@ -46,7 +46,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "smelt-pure-nickel",
+    name = "smelt-nickel-nugget",
     category = "smelting",
     energy_required = 6,
     ingredients =
@@ -58,7 +58,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "smelt-pure-iron",
+    name = "smelt-iron-nugget",
     category = "smelting",
     energy_required = 6,
     ingredients =

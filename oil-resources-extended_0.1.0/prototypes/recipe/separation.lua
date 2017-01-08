@@ -4,7 +4,7 @@ data:extend(
     type = "recipe",
     name = "seperate-nickel-ore",
     category = "separation",
-    energy_required = 3,
+    energy_required = 2,
     enabled = true,
     ingredients =
     {
@@ -137,7 +137,7 @@ data:extend(
     type = "recipe",
     name = "separate-sand",
     category = "separation",
-    energy_required = 3,
+    energy_required = 2,
     enabled = true,
     ingredients =
     {
@@ -157,7 +157,7 @@ data:extend(
     type = "recipe",
     name = "separate-apatite",
     category = "separation",
-    energy_required = 3,
+    energy_required = 2,
     enabled = true,
     ingredients =
     {
@@ -176,7 +176,7 @@ data:extend(
     type = "recipe",
     name = "separate-chrome",
     category = "separation",
-    energy_required = 3,
+    energy_required = 2,
     enabled = true,
     ingredients =
     {
@@ -195,7 +195,7 @@ data:extend(
     type = "recipe",
     name = "separate-phosphor",
     category = "separation",
-    energy_required = 3,
+    energy_required = 2,
     enabled = true,
     ingredients =
     {
