@@ -133,7 +133,8 @@ data:extend({
     energy_required = 10,
     ingredients =
     {
-      {"iron-ore", 1}
+      {"concrete", 1},
+      {"small-electric-pole", 1}
     },
     result= "powerline-concrete",
     result_count = 10
@@ -144,7 +145,7 @@ data:extend({
     energy_required = 3,
     ingredients =
     {
-      {"iron-ore", 1}
+      {"stone", 8}
     },
     result= "coke-oven"
   },
@@ -154,7 +155,9 @@ data:extend({
     energy_required = 3,
     ingredients =
     {
-      {"iron-ore", 1}
+      {"electronic-circuit", 3},
+      {"iron-gear-wheel", 5},
+      {"iron-plate", 9}
     },
     result= "separator"
   },
@@ -190,7 +193,10 @@ data:extend({
     energy_required = 3,
     ingredients =
     {
-      {"iron-ore", 1}
+      -- ~+33% of electric-mining-drill ingredients
+      {"electronic-circuit", 8},
+      {"iron-gear-wheel", 7},
+      {"iron-plate", 13}
     },
     result= "electric-mining-drill-mk2"
   },
