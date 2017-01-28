@@ -30,7 +30,7 @@ data:extend(
   {
     type = "item",
     name = "synth-diamond",
-    icon = "__oil-resources-extended__/graphics/icons/raw-material/synth-diamond.png",
+    icon = "__oil-resources-extended__/graphics/icons/product/synth-diamond.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "m[diamond]-a",
@@ -39,7 +39,7 @@ data:extend(
   {
     type = "item",
     name = "diamond-dust",
-    icon = "__oil-resources-extended__/graphics/icons/raw-material/synth-diamond.png",
+    icon = "__oil-resources-extended__/graphics/icons/product/diamond-dust.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "intermediate-product",
     order = "m[diamond]-b",

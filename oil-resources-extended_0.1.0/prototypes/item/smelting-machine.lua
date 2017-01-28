@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "laser-furnace",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-quickbar"},
     subgroup = "smelting-machine",
     order = "a",
@@ -13,7 +13,7 @@ data:extend(
   {
     type = "item",
     name = "blast-furnace",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-quickbar"},
     subgroup = "smelting-machine",
     order = "b",

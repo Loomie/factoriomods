@@ -43,7 +43,7 @@ data:extend(
   {
     type = "item",
     name = "pyrolysis-plant",
-    icon = "__oil-resources-extended__/graphics/icons/blank-icon.png",
+    icon = "__oil-resources-extended__/graphics/icons/building/pyrolysis-plant.png",
     flags = {"goes-to-quickbar"},
     subgroup = "smelting-machine",
     order = "b[coke-oven]-b[pyro-plant]",

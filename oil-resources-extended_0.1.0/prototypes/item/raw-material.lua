@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "char-coal",
-    icon = "__oil-resources-extended__/graphics/icons/raw-material/briquette.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "10MJ",
     subgroup = "raw-material",
@@ -13,7 +13,7 @@ data:extend(
   {
     type = "item",
     name = "briquette-char-coal",
-    icon = "__oil-resources-extended__/graphics/icons/raw-material/briquette.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     fuel_value = "15MJ",
     subgroup = "raw-material",
@@ -23,7 +23,7 @@ data:extend(
   {
     type = "item",
     name = "wood-char",
-    icon = "__oil-resources-extended__/graphics/icons/raw-material/briquette.png",
+    icon = "__oil-resources-extended__/graphics/icons/dummy.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
     order = "b[briquette]",
@@ -137,7 +137,7 @@ data:extend(
     icon = "__oil-resources-extended__/graphics/icons/raw-material/nickel-plate.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
-    order = "g[nickel-ore]-b[nickel-ingot]",
+    order = "g[nickel-ore]-b[nickel-plate]",
     stack_size = 50
   }, 
   {
