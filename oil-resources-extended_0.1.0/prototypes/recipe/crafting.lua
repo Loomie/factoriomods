@@ -228,4 +228,22 @@ data:extend({
     result = "multi-fuel-boiler",
     requester_paste_multiplier = 1
   },  
+  {
+    type = "recipe",
+    name = "laser-furnace",
+    -- ~+50% of electric-furnace ingredients
+    ingredients = {{"steel-plate", 22}, {"advanced-circuit", 7}, {"stone-brick", 15}},
+    result = "laser-furnace",
+    energy_required = 5,
+    enabled = true
+  },
+  {
+    type = "recipe",
+    name = "blast-furnace",
+    -- ~+50% of electric-furnace ingredients
+    ingredients = {{"steel-plate", 22}, {"advanced-circuit", 7}, {"stone-brick", 15}},
+    result = "blast-furnace",
+    energy_required = 5,
+    enabled = true
+  },
 })
